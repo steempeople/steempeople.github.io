@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+<title>[블록체인]  블록체인 기술의 미래, POS(Proof-of-Stake; 지분 증명) 방식 - 피우스의 책도둑 &amp; </title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="https://www.easyicon.net/api/resizeApi.php?id=1185564&size=32">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-dark.css">
+
+
+    
+    
+    
+    <style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+    
+
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+    
+
+    
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+
+    
+    
+    
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+
+    
+    
+    
+
+    
+    
+    
+
+
+<link rel="stylesheet" href="/@pius.pius/css/style.css">
+
+<link rel="stylesheet" href="/@pius.pius/css/bundle.css"></head>
+<body class="is-2-column">
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/@pius.pius/">
+            
+                <img src="https://avatars0.githubusercontent.com/u/50857551?s=200&v=4" alt="피우스의 책도둑 &amp; " height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start">
+                
+                <a class="navbar-item" href="/@pius.pius/">Home</a>
+                
+                <a class="navbar-item" href="/@pius.pius/archives">Archives</a>
+                
+                <a class="navbar-item" href="/@pius.pius/categories">Categories</a>
+                
+                <a class="navbar-item" href="/@pius.pius/tags">Tags</a>
+                
+                <a class="navbar-item" href="/@pius.pius/about">About</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                
+                <a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
+                
+                <a class="navbar-item search" title="Search" href="javascript:;">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-4-widescreen  has-order-3 column-right is-sticky">
+    
+        
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                Catalogue
+            </h3>
+            
+        </div>
+    </div>
+</div>
+
+
+    
+    
+</div>
+
+
+                <script src="/@pius.pius/js/pjax-widget.js"></script>
+
+                <div class="column is-8-tablet is-8-desktop is-8-widescreen has-order-2 column-main"><div class="card">
+    <!-- 
+    <div class="card-image">
+        <span  class="image is-7by1">
+            <img class="thumbnail" src="https://steemitimages.com/DQmezwE94dvwA9gPcvdNLZQVqdfjkKUjE9LhYiUSJsEqmVm/image.png" alt="[블록체인]  블록체인 기술의 미래, POS(Proof-of-Stake; 지분 증명) 방식">
+        </span>
+    </div>
+     -->
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2018-02-04T12:23:54.000Z">2018-02-04</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/@pius.pius/categories/kr/">kr</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    12 minutes read (About 1728 words)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                [블록체인]  블록체인 기술의 미래, POS(Proof-of-Stake; 지분 증명) 방식
+            
+        </h1>
+        <div class="content">
+            <center><br><img src="https://steemitimages.com/DQmezwE94dvwA9gPcvdNLZQVqdfjkKUjE9LhYiUSJsEqmVm/image.png" alt=""><br></center>
+
+<p>&#xC554;&#xD638;&#xD654;&#xD3D0;&#xB294; (&#xACFC;&#xB3C4;&#xD55C; &#xC804;&#xB825; &#xC18C;&#xBE44;&#xB85C; &#xC778;&#xD574;) &#xD658;&#xACBD;&#xC5D0; &#xACFC;&#xB3C4;&#xD55C; &#xBD80;&#xB2F4;&#xC744; &#xC8FC;&#xACE0; &#xC788;&#xB2E4;&#xB294; &#xB300;&#xC911;&#xC758; &#xC9C8;&#xD0C0;&#xB97C; &#xBC1B;&#xACE0; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.  &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xAE30;&#xC220;&#xC758; &#xD575;&#xC2EC; &#xC751;&#xC6A9; &#xBD84;&#xC57C;&#xC778; &#xC554;&#xD638;&#xD654;&#xD3D0;&#xAC00;  &#xD658;&#xACBD;&#xC758; &#xC9C0;&#xC18D; &#xAC00;&#xB2A5;&#xC131;&#xC5D0; &#xAD11;&#xBC94;&#xC704;&#xD55C; &#xC601;&#xD5A5;&#xC744; &#xBBF8;&#xCE58;&#xAC8C; &#xB420; &#xAC83;&#xC774;&#xB77C;&#xB294; &#xC6B0;&#xB824;&#xAC00; &#xBC14;&#xB85C; &#xADF8;&#xB807;&#xC2B5;&#xB2C8;&#xB2E4;. </p>
+<p>&#xC608;&#xB97C; &#xB4E4;&#xC5B4;, &#xBE44;&#xD2B8;&#xCF54;&#xC778;&#xC758; &#xACBD;&#xC6B0;, &#xC5F0;&#xAC04; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xC804;&#xB825; &#xC18C;&#xBE44;&#xB7C9;&#xC774; 41&#xD14C;&#xB77C;&#xC640;&#xD2B8;-&#xC2DC;&#xAC00; &#xB118;&#xB294; &#xAC83;&#xC73C;&#xB85C; &#xCD94;&#xC0B0;&#xB418;&#xBA70;, &#xC774;&#xB294; &#xB274;&#xC9C8;&#xB79C;&#xB4DC; &#xC804;&#xCCB4;&#xC758; &#xC804;&#xB825; &#xC18C;&#xBE44;&#xB7C9;&#xC5D0; &#xB9DE;&#xBA39;&#xB294; &#xC218;&#xC900;&#xC785;&#xB2C8;&#xB2E4;.   &#xBE44;&#xD2B8;&#xCF54;&#xC778;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xC9C0;&#xC18D; &#xAC00;&#xB2A5;&#xC131; &#xBB38;&#xC81C;&#xB294; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC0C1;&#xC5D0;&#xC11C; &#xD2B8;&#xB79C;&#xC7AD;&#xC158;&#xC744; &#xD655;&#xC778;&#xD558;&#xAE30; &#xC704;&#xD574; &#xC0AC;&#xC6A9;&#xB418;&#xB294; POW(Proof-of-Work; &#xC791;&#xC5C5; &#xC99D;&#xBA85;) &#xBC29;&#xC2DD; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;. </p>
+<p>&#xC7A5;&#xBD80;&#xC758; &#xD2B8;&#xB79C;&#xC81D;&#xC158; &#xC720;&#xD6A8;&#xC131;&#xC744; &#xD655;&#xC778;&#xD558;&#xB294; &#xB370; &#xC0AC;&#xC6A9;&#xB418;&#xB294; POW &#xBC29;&#xC2DD;&#xC5D0;&#xC11C;&#xB294; &#xB514;&#xC9C0;&#xD138; &#xC7A5;&#xBD80;&#xC5D0; &#xC0C8;&#xB85C;&#xC6B4; &#xD2B8;&#xB79C;&#xC81D;&#xC158; &#xBE14;&#xB85D;&#xC744; &#xAE30;&#xB85D;&#xD558;&#xAE30; &#xC704;&#xD574; &#xBCF5;&#xC7A1;&#xD55C; &#xC554;&#xD638;&#xD654; &#xD37C;&#xC990;&#xC744; &#xD480;&#xC5B4;&#xC57C; &#xD569;&#xB2C8;&#xB2E4;.  &#xCC44;&#xAD74;&#xC790;&#xAC00; &#xC554;&#xD638;&#xD654; &#xD37C;&#xC990;&#xC744; &#xD480; &#xB54C;&#xB9C8;&#xB2E4; &#xCCB4;&#xC778; &#xC0C1;&#xC5D0; &#xC0C8;&#xB85C;&#xC6B4; &#xBE14;&#xB85D;&#xC774; &#xC0DD;&#xC131;&#xB429;&#xB2C8;&#xB2E4;. </p>
+<p>&#xC774; &#xBE14;&#xB85D;&#xC740; &#xD2B8;&#xB79C;&#xC7AD;&#xC158;&#xACFC; &#xD1B5;&#xD569;&#xB418;&#xC5B4;, &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xB97C; &#xD1B5;&#xD574; &#xC804;&#xD30C;&#xB429;&#xB2C8;&#xB2E4;.  &#xBE14;&#xB85D;&#xC744; &#xC0DD;&#xC131;&#xD55C; &#xCC44;&#xAD74;&#xC790;&#xC5D0;&#xAC8C;&#xB294; &#xC18C;&#xC815;&#xC758; &#xCF54;&#xC778;&#xACFC; &#xBE14;&#xB85D;&#xC758; &#xD2B8;&#xB79C;&#xC81D;&#xC158;&#xACFC; &#xAD00;&#xB828;&#xB41C; &#xC218;&#xC218;&#xB8CC;&#xAC00; &#xC9C0;&#xAE09;&#xB429;&#xB2C8;&#xB2E4;.  &#xCC44;&#xAD74;&#xC790;&#xB4E4;&#xC774; &#xBE14;&#xB85D;&#xC744; &#xC0DD;&#xC131;&#xD558;&#xACE0;, &#xADF8;&#xC5D0; &#xB530;&#xB978; &#xC778;&#xC13C;&#xD2F0;&#xBE0C;&#xB97C; &#xBC1B;&#xB294; &#xC77C;&#xB828;&#xC758; &#xACFC;&#xC815;&#xC5D0;&#xC11C;, &#xACBD;&#xC7C1; &#xC6B0;&#xC704;&#xB97C; &#xAC00;&#xC9C0;&#xB824;&#xBA74; &#xB9CE;&#xC740; &#xC804;&#xB825;&#xC744; &#xC18C;&#xBE44;&#xD558;&#xAC8C; &#xB429;&#xB2C8;&#xB2E4;.  &#xCC44;&#xAD74;&#xC790;&#xB4E4;&#xC740; &#xC5BB;&#xC740; &#xCF54;&#xC778;&#xC744; &#xBC95;&#xC815; &#xD654;&#xD3D0;&#xB85C; &#xBC14;&#xAFB8;&#xC5B4; &#xC804;&#xAE30;&#xC694;&#xAE08;&#xC744; &#xB0B4;&#xBA74; &#xB418;&#xC9C0; &#xC54A;&#xB290;&#xB0D0;&#xACE0; &#xC8FC;&#xC7A5;&#xD569;&#xB2C8;&#xB2E4;. </p>
+<center><br><img src="https://steemitimages.com/DQmTS4T6s1e9AuGDRtMvVrmvb1nDfrEHqTM4dqBxNXgCNgQ/image.png" alt=""><br></center>
+
+<p>&#xC804;&#xAE30; &#xC694;&#xAE08;&#xC774; &#xC138;&#xACC4;&#xC5D0;&#xC11C; &#xAC00;&#xC7A5; &#xC2FC; &#xCD95;&#xC5D0; &#xB4DC;&#xB294; &#xC911;&#xAD6D;&#xACFC; &#xBABD;&#xACE8; &#xAC19;&#xC740; &#xAD6D;&#xAC00;&#xC758; &#xACBD;&#xC6B0;,  &#xCC44;&#xAD74; &#xC791;&#xC5C5;&#xC5D0; &#xC0AC;&#xC6A9;&#xB418;&#xB294; &#xC804;&#xB825;&#xC740; &#xAC70;&#xC758; &#xC11D;&#xD0C4; &#xD654;&#xB825; &#xBC1C;&#xC804;&#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xC5B4; &#xC9D1;&#xB2C8;&#xB2E4;.  &#xC11D;&#xD0C4; &#xAC19;&#xC740; &#xAC12;&#xC2FC; &#xC5D0;&#xB108;&#xC9C0; &#xC790;&#xC6D0;&#xC758; &#xC0AC;&#xC6A9;&#xC774; &#xAE30;&#xD6C4; &#xBCC0;&#xD654;&#xC640; &#xD658;&#xACBD; &#xD30C;&#xAD34;&#xC5D0; &#xC6D0;&#xC778;&#xC774;&#xB77C;&#xB294; &#xC810;&#xC740; &#xC775;&#xD788; &#xC54C;&#xB824;&#xC9C4; &#xB0B4;&#xC6A9;&#xC785;&#xB2C8;&#xB2E4;. </p>
+<p>&#xB610;&#xD55C; &#xBE44;&#xD2B8;&#xCF54;&#xC778; &#xCC44;&#xAD74;&#xC790;&#xB4E4;&#xC774; &#xC774;&#xB7F0; &#xC804;&#xB825;&#xB9DD;&#xC5D0;&#xC11C; &#xB098;&#xC628; &#xC804;&#xAE30;&#xB97C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;&#xB294; &#xC0AC;&#xC2E4;&#xC774; &#xACE8;&#xCE6B;&#xAC70;&#xB9AC;&#xC778; &#xC774;&#xC720;&#xB294; &#xC804;&#xB825; &#xACF5;&#xAE09;&#xC6D0;&#xC774; &#xACB0;&#xAD6D; &#xC815;&#xBD80; &#xAE30;&#xAD00;&#xACFC; &#xADDC;&#xC81C; &#xAE30;&#xAD00;&#xC758; &#xC190; &#xC548;&#xC5D0; &#xC788;&#xC5B4;&#xC11C;, &#xC774;&#xB4E4;&#xC774; &#xB9C8;&#xC74C;&#xB9CC; &#xBA39;&#xC73C;&#xBA74; &#xC5B8;&#xC81C;&#xB4E0;&#xC9C0; &#xC804;&#xB825; &#xACF5;&#xAE09;&#xC744; &#xC81C;&#xD55C;&#xD558;&#xAC70;&#xB098; &#xCC44;&#xAD74; &#xC791;&#xC5C5;&#xC5D0; &#xC138;&#xAE08;&#xC744; &#xBD80;&#xACFC;&#xD560; &#xC218; &#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;. </p>
+<p>&#xC608;&#xB97C; &#xB4E4;&#xC5B4;, &#xC911;&#xAD6D;&#xC774; &#xC5D0;&#xB108;&#xC9C0; &#xC18C;&#xBE44;&#xB97C; &#xADDC;&#xC81C;&#xD558;&#xACE0; &#xB098;&#xC11C;&#xBA74;, &#xBE44;&#xD2B8;&#xCF54;&#xC778; &#xAC00;&#xACA9;&#xC5D0; &#xD070; &#xD0C0;&#xACA9;&#xC774; &#xB420; &#xC218;&#xB3C4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.  &#xC911;&#xAD6D;&#xC740; &#xC774;&#xBBF8; ICO&#xB97C; &#xAE08;&#xC9C0;&#xD588;&#xACE0;, &#xC628;&#xB77C;&#xC778; &#xAC70;&#xB798;&#xC18C;&#xB97C; &#xD3D0;&#xC1C4;&#xD568;&#xC73C;&#xB85C;&#xC368; &#xC554;&#xD638;&#xD654;&#xD3D0; &#xC2DC;&#xC7A5;&#xC5D0; &#xCC2C;&#xBB3C;&#xC744; &#xB07C;&#xC5B9;&#xC740; &#xBC14; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.  &#xD5A5;&#xD6C4; &#xC911;&#xAD6D; &#xB2F9;&#xAD6D;&#xC740; &#xC790;&#xAD6D; &#xB0B4; &#xCC44;&#xAD74; &#xC791;&#xC5C5;&#xC744; &#xC911;&#xB2E8;&#xC2DC;&#xD0A4;&#xAE30; &#xC704;&#xD55C; &#xC870;&#xCE58;&#xB97C; &#xCDE8;&#xD560; &#xACC4;&#xD68D;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC815;&#xBD80;&#xC758; &#xAC04;&#xC12D;&#xC774; &#xC5C6;&#xB2E4;&#xD574;&#xB3C4;, &#xAE30;&#xC874; POW &#xBC29;&#xC2DD;&#xC744; &#xD1B5;&#xD55C; &#xBE44;&#xD2B8;&#xCF54;&#xC778; &#xCC44;&#xAD74;&#xC740; &#xACB0;&#xAD6D; &#xC218;&#xC775;&#xC131;&#xC774; &#xB5A8;&#xC5B4;&#xC9C0;&#xAC8C; &#xB420; &#xC218;&#xB3C4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.  4&#xB144;&#xB9C8;&#xB2E4; &#xCC44;&#xAD74;&#xC790;&#xC5D0;&#xAC8C; &#xC9C0;&#xAE09;&#xD558;&#xB294; &#xD1A0;&#xD070; &#xC778;&#xC13C;&#xD2F0;&#xBE0C;&#xB294; &#xBC18;&#xC73C;&#xB85C; &#xC904;&#xC5B4; &#xB4ED;&#xB2C8;&#xB2E4;.  2021&#xB144;&#xC5D0;&#xC11C; 2024&#xB144; &#xC0AC;&#xC774;, &#xCC44;&#xAD74;&#xC790;&#xB294; &#xBE14;&#xB85D; &#xB2F9; 6 &#xBE44;&#xD2B8;&#xCF54;&#xC778;&#xC744; &#xBC1B;&#xAC8C; &#xB420; &#xAC83;&#xC73C;&#xB85C; &#xC608;&#xC0C1;&#xB429;&#xB2C8;&#xB2E4;.</p>
+<p>2024&#xB144; &#xC774;&#xD6C4;&#xC5D0;&#xB294; &#xC774; &#xC218;&#xCE58;&#xAC00; &#xB2E4;&#xC2DC; &#xBC18;&#xC73C;&#xB85C; &#xC904;&#xAC8C; &#xB420; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;.  &#xCC44;&#xAD74; &#xC778;&#xC13C;&#xD2F0;&#xBE0C;&#xAC00; &#xC801;&#xC5B4;&#xC9C0;&#xBA74;, &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC5D0; &#xCC44;&#xAD74;&#xC790;&#xAC00; &#xC904;&#xC5B4;&#xB4E4;&#xAC8C; &#xB420; &#xAC83;&#xC774;&#xBA70;, &#xC774;&#xB85C; &#xC778;&#xD574; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xBCF4;&#xC548; &#xCDE8;&#xC57D;&#xC131;&#xC774; &#xC99D;&#xAC00;&#xD558;&#xACE0;, &#xBE44;&#xD2B8;&#xCF54;&#xC778; &#xAC00;&#xACA9;&#xC5D0; &#xD30C;&#xAE09; &#xD6A8;&#xACFC;&#xB97C; &#xBBF8;&#xCE60; &#xAC00;&#xB2A5;&#xC131;&#xC774; &#xB192;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<p>&#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xAE30;&#xC220;&#xC774; &#xACC4;&#xC18D; &#xC9C4;&#xD654;&#xD558;&#xBA74;&#xC11C;, &#xBC14;&#xAFC0; &#xC218; &#xC5C6;&#xB294; &#xBC29;&#xC2DD;&#xC744; &#xD1B5;&#xD55C; &#xBD84;&#xAD8C;&#xD654;&#xB418;&#xACE0; &#xBD84;&#xC0B0;&#xB41C; &#xD569;&#xC758;&#xB97C; &#xC774;&#xB04C;&#xC5B4;&#xB0B4;&#xB294; &#xAC83;&#xC774; &#xC0C8;&#xB85C;&#xC6B4; &#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xC758; &#xC8FC;&#xC694; &#xBAA9;&#xD45C;&#xAC00; &#xB420; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;.  &#xC774;&#xB7F0; &#xD504;&#xB85C;&#xC81D;&#xD2B8;&#xB294; &#xBAA8;&#xB4E0; &#xC774;&#xB4E4;&#xC774; &#xD569;&#xC758;&#xD55C; &#xAE30;&#xB85D;&#xC744; &#xD6A8;&#xACFC;&#xC801;&#xC73C;&#xB85C; &#xB0A8;&#xAE30;&#xACE0;&#xC790; &#xD558;&#xB294; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;. </p>
+<p>&#xC774;&#xC81C; 3&#xC138;&#xB300; &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xB294; POW &#xBC29;&#xC2DD;&#xC5D0; &#xB300;&#xD55C; &#xD658;&#xACBD; &#xCE5C;&#xD654;&#xC801;&#xC778; &#xB300;&#xC548;&#xC73C;&#xB85C;  POS(Proof-of-Stake; &#xC9C0;&#xBD84; &#xC99D;&#xBA85;) &#xBC29;&#xC2DD;&#xC744; &#xCC44;&#xD0DD;&#xD574;, &#xBE14;&#xB85D;&#xC744; &#xD6A8;&#xACFC;&#xC801;&#xC73C;&#xB85C; &#xC0DD;&#xC131;&#xD558;&#xB294;&#xB370; &#xD544;&#xC694;&#xD55C; &#xC5F0;&#xC0B0;&#xB825;&#xC744; &#xC904;&#xC774;&#xB294; &#xB3D9;&#xC2DC;&#xC5D0;, POW&#xC5D0; &#xC758;&#xD574; &#xC0DD;&#xAE30;&#xB294; &#xBCF4;&#xC548;&#xC131; &#xBB38;&#xC81C;&#xC5D0; &#xB300;&#xD55C; &#xD574;&#xBC95;&#xC744; &#xCC3E;&#xACE0; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. </p>
+<p>POS &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC740; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC0C1;&#xC758; &#xC0AC;&#xC6A9;&#xC790;&#xAC00; &#xBCF4;&#xC720;&#xD55C; &#xD1A0;&#xD070; &#xC591;&#xC5D0; &#xBE44;&#xB840;&#xD574; &#xCC44;&#xAD74; &#xAE30;&#xD68C;&#xB97C; &#xC90D;&#xB2C8;&#xB2E4;.   &#xC989;, &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC758; &#xC9C0;&#xBD84;&#xC744; 10%(&#xCF54;&#xC778; 10%&#xB97C; &#xBCF4;&#xC720;)&#xB97C; &#xC9C0;&#xB2CC; &#xAC1C;&#xC778;&#xC774; &#xC774; &#xC9C0;&#xBD84;&#xC5D0; &#xBE44;&#xB840;&#xD574; &#xD2B8;&#xB79C;&#xC81D;&#xC158;&#xC744; &#xC2B9;&#xC778;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<center><br><img src="https://steemitimages.com/DQmVknSVEjX39kuqAiSsmFH5h8ZLU6KAtzyuSsk5Yiqjqtx/image.png" alt=""><br></center>
+
+<p>&#xC774; &#xCC44;&#xAD74;&#xC790;&#xB294; &#xC774;&#xB860;&#xC801;&#xC73C;&#xB85C; &#xCD1D; &#xBE14;&#xB85D; &#xC218;&#xC758; 10&#xBD84;&#xC758; 1&#xC744; &#xCC44;&#xAD74;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.  &#xC5EC;&#xAE30;&#xC5D0; &#xC774;&#xD574; &#xAD00;&#xACC4;&#xC790;(&#xC720;&#xD6A8;&#xC131; &#xAC80;&#xC99D;&#xC790; &#xB77C;&#xACE0;&#xB3C4; &#xD568;)&#xAC00; &#xD45C;&#xACB0;&#xC5D0; &#xCC38;&#xC5EC;&#xD574; &#xB2E4;&#xC74C; &#xD2B8;&#xB79C;&#xC7AD;&#xC158; &#xBE14;&#xB85D;&#xC758; &#xC720;&#xD6A8;&#xC131;&#xC744; &#xAC80;&#xC99D;&#xD569;&#xB2C8;&#xB2E4;.  &#xC774; &#x2018;&#xD45C;&#xACB0;&#xAD8C;&#x2019;&#xC758; &#xBE44;&#xC911; &#xB610;&#xD55C; &#xBCF4;&#xC720;&#xD55C; &#xD1A0;&#xD070;&#xC5D0; &#xBE44;&#xB840;&#xD569;&#xB2C8;&#xB2E4;.  POS &#xBC29;&#xC2DD;&#xC744; &#xD1B5;&#xD574; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC758; &#xBCF4;&#xC548;&#xC131;&#xC744; &#xBCF4;&#xC7A5;&#xD560; &#xC218; &#xC788;&#xB294; &#xC774;&#xC720;&#xB294; &#xB514;&#xC9C0;&#xD138; &#xC6D0;&#xC7A5;&#xC758; &#xBB34;&#xACB0;&#xC131;&#xC744; &#xC720;&#xC9C0;&#xD558;&#xB294; &#xAC83;&#xC774; &#xCC44;&#xAD74;&#xC790;&#xB4E4;&#xC758; &#xC774;&#xC775;&#xC5D0; &#xBD80;&#xD569;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;. </p>
+<p>&#xB610;&#xD55C;, POS &#xBC29;&#xC2DD;&#xC740; &#xC2DC;&#xC2A4;&#xD15C;&#xC744; &#xC870;&#xC791;&#xD558;&#xB824;&#xB294; &#xC774;&#xB4E4;&#xC5D0;&#xAC8C; &#xBC8C;&#xCE59;&#xC744; &#xBD80;&#xACFC;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.  &#xB9CC;&#xC77C; &#xB204;&#xAD70;&#xAC00;&#xAC00; &#xB2E4;&#xC74C; &#xBE14;&#xB85D;&#xC758; &#xC720;&#xD6A8;&#xC131; &#xAC80;&#xC99D;&#xC5D0; &#xBD80;&#xD569;&#xD558;&#xC9C0; &#xC54A;&#xC740; &#xD589;&#xB3D9;&#xC744; &#xD55C;&#xB2E4;&#xBA74;, &#xC9C0;&#xBD84; &#xBAB0;&#xC218;&#xB77C;&#xB294; &#xBC8C;&#xCE59;&#xC744; &#xBD80;&#xACFC;&#xD560; &#xC218;&#xB3C4; &#xC788;&#xB2E4;.  &#xADF8;&#xB807;&#xAC8C; &#xB418;&#xBA74; &#xCF54;&#xC778;&#xC744; &#xD2B8;&#xB79C;&#xC81D;&#xC158; &#xD560; &#xC218; &#xC5C6;&#xAC8C; &#xB418;&#xACE0;, &#xC9C0;&#xBD84; &#xD589;&#xC0AC;&#xB3C4; &#xBD88;&#xAC00;&#xB2A5;&#xD574; &#xC9D1;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC774;&#xB7EC;&#xD55C; &#xC720;&#xD615;&#xC758; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xAC00; &#xC544;&#xC9C1; &#xB110;&#xB9AC; &#xC2DC;&#xD5D8;&#xC744; &#xAC70;&#xCE58;&#xC9C0; &#xBABB;&#xD588;&#xC9C0;&#xB9CC;, POS &#xBAA8;&#xB378;&#xC740; &#xB9E4;&#xB825;&#xC801;&#xC774;&#xBA70; &#xC720;&#xB9DD;&#xD55C; &#xC2DC;&#xC2A4;&#xD15C;&#xC785;&#xB2C8;&#xB2E4;.  &#xC2E4;&#xC9C8;&#xC801;&#xC73C;&#xB85C; POW &#xBCF4;&#xB2E4; &#xC5F0;&#xC0B0; &#xBE44;&#xC6A9;&#xC774; &#xB35C; &#xB4E4;&#xACE0;, &#xCC44;&#xAD74;&#xC758; &#xACBD;&#xC81C;&#xC801; &#xBC0F; &#xD658;&#xACBD;&#xC801; &#xBE44;&#xC6A9;&#xB3C4; &#xD574;&#xACB0;&#xD574; &#xC90D;&#xB2C8;&#xB2E4;.</p>
+<p>POS &#xBC29;&#xC2DD;&#xC5D0; &#xAE30;&#xBC18; &#xD55C; 3&#xC138;&#xB300; &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xAE30;&#xC220;&#xC774; &#xB110;&#xB9AC; &#xC0AC;&#xC6A9;&#xB418;&#xBA74;,  &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC758; &#xBCF4;&#xC548;&#xC131;&#xACFC; &#xC5D0;&#xB108;&#xC9C0; &#xD6A8;&#xC728;&#xC131;&#xC774; &#xD5A5;&#xC0C1;&#xB420; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;.  &#xB610;&#xD55C; &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xD569;&#xC758; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC758; &#xC18D;&#xB3C4; &#xD5A5;&#xC0C1;&#xC73C;&#xB85C; &#xB124;&#xD2B8;&#xC6CC;&#xD06C; &#xC0C1;&#xC5D0;&#xC11C; &#xC2E4;&#xD589;&#xD560; &#xC218;&#xC788;&#xB294; &#xB2E4;&#xC591;&#xD55C; &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC5D0;&#xB3C4; &#xAD11;&#xBC94;&#xC704;&#xD55C; &#xC601;&#xD5A5;&#xC744; &#xBBF8;&#xCE58;&#xAC8C; &#xB420; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;. </p>
+<p>&lt;&#xCD9C;&#xCC98;: Hackernoon, &#x201C;Why Proof-of-Stake is the Future of Blockchain Technology&#x201D;&gt;</p>
+<hr>
+<p>This page is synchronized from the post: <a href="https://steemit.com/@pius.pius/pos-proof-of-stake" target="_blank" rel="noopener">&#x2018;[&#xBE14;&#xB85D;&#xCCB4;&#xC778;]  &#xBE14;&#xB85D;&#xCCB4;&#xC778; &#xAE30;&#xC220;&#xC758; &#xBBF8;&#xB798;, POS(Proof-of-Stake; &#xC9C0;&#xBD84; &#xC99D;&#xBA85;) &#xBC29;&#xC2DD;&#x2019;</a></p>
+<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/@pius.pius/tags/coinkorea/">coinkorea</a>, <a class="has-link-grey -link" href="/@pius.pius/tags/kr/">kr</a>, <a class="has-link-grey -link" href="/@pius.pius/tags/kr-btc/">kr-btc</a>, <a class="has-link-grey -link" href="/@pius.pius/tags/tooza/">tooza</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+<div class="sharethis-inline-share-buttons"></div>
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5ab6f60ace89f00013641890&amp;product=inline-share-buttons" async="async"></script>
+
+        
+    </div>
+</div>
+
+
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/@pius.pius/5oab1/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">우리는 얼마나 먹어야 하나? 다른 동물들과 비교해 보자</span>
+            </a>
+        </div>
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/@pius.pius/4kracn/">
+                <span class="level-item">베네수엘라의 암호화폐 출시 계획은 어디까지 왔을까요?</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+
+</div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/@pius.pius/">
+                
+                    <img src="https://avatars0.githubusercontent.com/u/50857551?s=200&v=4" alt="피우스의 책도둑 &amp; " height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2020 피우스의 책도둑 &amp; &nbsp;
+                Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
+                
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Creative Commons" href="https://creativecommons.org/">
+                        
+                        <i class="fab fa-creative-commons"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
+                        
+                        <i class="fab fa-creative-commons-by"></i>
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("en_US.UTF-8");</script>
+
+
+    
+    
+    
+    <script src="/@pius.pius/js/animation.js"></script>
+    
+
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+    
+    
+
+    
+    
+
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>document.addEventListener("DOMContentLoaded",function(){outdatedBrowser({bgColor:"#f25648",color:"#ffffff",lowerThan:"flex"})});</script>
+
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>document.addEventListener("DOMContentLoaded",function(){MathJax.Hub.Config({"HTML-CSS":{matchFontHeight:!1},SVG:{matchFontHeight:!1},CommonHTML:{matchFontHeight:!1},tex2jax:{inlineMath:[["$","$"],["\\(","\\)"]]}})});</script>
+
+    
+    
+
+<a id="back-to-top" title="Back to Top" href="javascript:;">
+    <i class="fas fa-chevron-up"></i>
+</a>
+
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="Type something...">
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>window.INSIGHT_CONFIG={TRANSLATION:{POSTS:"Posts",PAGES:"Pages",CATEGORIES:"Categories",TAGS:"Tags",UNTITLED:"(Untitled)"},CONTENT_URL:"/@pius.pius/content.json"};</script>
+
+
+
+    
+<script src="/@pius.pius/js/bundle.js" defer></script></body>
+</html>
+
