@@ -129,6 +129,10 @@ widgets:
 
 - Steemit.com은 스팀픽 이상의 UI가 되어야 합니다.
 
+
+<center><sub><간단한 퀘스트를 수행하고 암호화폐로 보상받는 리뷰헌트 바로가기(아래 이미지 클릭)></sub></center>
+<a href="https://review.hunt.town/r/7440"><img src="https://cdn.steemitimages.com/DQmbBT686T7Diu6FJGMf2qtyuASQRTcTWhzMDRReVYkMD4Z/reviewhunt%20logo.png"></a>
+
 - - -
 
 This page is synchronized from the post: ['[STEEM] 현재 스팀 블록체인에 개선이 필요한 사항들'](https://steemit.com/@donekim/2npttx-steem)

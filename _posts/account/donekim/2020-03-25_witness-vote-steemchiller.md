@@ -8,9 +8,8 @@ toc: true
 position: 9999
 date: 2020-03-25 07:50:06
 categories:
-- hive-101145
+- sct-kr
 tags:
-- hive-101145
 - sct-kr
 - sct-freeboard
 - liv
@@ -54,6 +53,10 @@ widgets:
 - 스팀칠러 증인 후보 계정 : @steemchiller
 
 아직 버전 업데이트가 완료되지는 않았으나, 생태계와 커뮤니티에 지난 몇 년간 헌신해왔던 스팀칠러(@steemchiller) 증인 후보에게도 많은 지지와 투표를 부탁드립니다.
+
+
+<center><sub><간단한 퀘스트를 수행하고 암호화폐로 보상받는 리뷰헌트 바로가기(아래 이미지 클릭)></sub></center>
+<a href="https://review.hunt.town/r/7440"><img src="https://cdn.steemitimages.com/DQmbBT686T7Diu6FJGMf2qtyuASQRTcTWhzMDRReVYkMD4Z/reviewhunt%20logo.png"></a>
 
 - - -
 
