@@ -8,9 +8,8 @@ toc: true
 position: 9999
 date: 2020-03-26 13:45:33
 categories:
-- hive-101145
+- sct-kr
 tags:
-- hive-101145
 - sct-kr
 - sct-invest
 - zzan
@@ -33,7 +32,7 @@ widgets:
 
 Until today, I had no interaction (comment, upvote, or downvote) with @gtg, former top witness of STEEM and now top witness of HIVE. 
 
-Not very surprising, as gtg has been a top witness with significant steem power I was nobody - who occasionally writes in a non-English language and plays games like steemmonsters - and did not have much steem power. 
+Not very surprising, as gtg has been a top witness with significant steem power  but I was nobody - who occasionally writes in a non-English language and plays games like steemmonsters - who did not have much steem power. 
 
 ---
 
@@ -57,7 +56,7 @@ Yes, he was making lots of spam comments and self-voting on his first posting [H
 
 I was disappointed. I know that he was not happy regarding the current situation of Steem and decided to move to HIVE - and then why is he doing such disgraceful things here instead of improving HIVE?
 
-So I decided to downvote them, even though my stakes are not big so my downvotes only costs like 0.14 STU, as a sign of disappointment. 
+So I decided to downvote them, even though my stakes are not big so my downvotes only cost like 0.14 STU, as a sign of disappointment. 
 
 * I am pretty sure that most people agree that this crap should not be worth more than $3 rewards. 
 
@@ -73,7 +72,7 @@ When I got back home after a few hours, I found that gtg decided to retaliate, a
 
 When HIVE first started, since I was one of the "blacklisted" users who did not get HIVE airdrop, I did not login for a while. But later some of Steem neighbors encouraged me to use HIVE at least several time to test, I wrote two short postings after claiming previous rewards (otherwise I didn't have enough RC as my HP is zero).
 
-And I guess I should stop trying HIVE, as now the top witness with more than 472K power decides to downvotes me, which made my posting rewards zero. I am okay with them going to zero per se, but I feel bad about my neighbors who voted me to make me feel better using HIVE, as their efforts are in vain. 
+And I guess I should stop trying HIVE, as now the top witness with more than 472K power decides to downvote me, which made my posting rewards zero. I am okay with them going to zero per se, but I feel bad about my neighbors who voted me to make me feel better using HIVE, as their efforts are in vain. 
 
 * gtg's HP:
 
@@ -107,6 +106,10 @@ Yes, I admit that I was a coward who just waited these downvote bullies to find 
 At least, from now on, I will try not to be silent and do what I believe to be correct. 
 
 * Even though I lost a lot (in terms of the current token price) more by getting downvotes from a whale, I do not regret my action.
+
+---
+
+* Update: @steemit, while I appreciate that your vote would put this posting on trending so that many users may have a chance to read this, I believe that the posting reward would be too much - so please remove the upvote before the payout.
 
 - - -
 
