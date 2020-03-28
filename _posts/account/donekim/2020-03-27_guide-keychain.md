@@ -8,9 +8,8 @@ toc: true
 position: 9999
 date: 2020-03-27 14:17:39
 categories:
-- hive-101145
+- sct-kr
 tags:
-- hive-101145
 - sct-kr
 - sct-coin
 - liv
@@ -119,6 +118,12 @@ widgets:
 
 
 아무래도 기존에 사용하던 스팀 키체인에 비해서 아직까지 하이브 키체인은 설치하는 법이 조금 까다롭게 느껴질 수는 있을 것 같네요. 꼭 키체인이 아니더라도 기존의 스팀커넥트(steemconnect)와 같은 hivesigner를 사용해서 로그인 하는 간편한 방법도 있으니 참고하세요^^
+
+
+
+
+<center><sub><고팍스 거래소 가입하고 5,000원 받기(아래 이미지 클릭)></sub></center>
+<a href="https://www.gopax.co.kr/signup?refCode=D2T67G"><img src="https://cdn.steemitimages.com/DQmfPE882BJvYDPHKRKMY1afsQVsDjyPGpL4i7iDZCpzp89/gopax%20banner.png"></a>
 
 - - -
 
