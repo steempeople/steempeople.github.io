@@ -28,7 +28,7 @@ widgets:
 ![1.PNG](https://cdn.steemitimages.com/DQmTFQhwuKuQPK8UEQhLCebFefBA8hSqFMEAA37KkCjhC5r/1.PNG)
 </br>
 
-I have played it for 70 hours with original version and finally so the ending in the beginning of third year. Well, this is programmed to happen on the first day of third year.. What it matters is how happy I could make my granpa is who I have inherited a farm from. So after all, I am proud of specifying my accomplishment as below.
+I have played it for 70 hours with original version and finally saw the ending in the beginning of third year. Well, this is programmed to happen on the first day of third year.. What it matters is how happy I could make my granpa is who I have inherited a farm from. So after all, I am proud of specifying my accomplishment as below.
 
 - Became a fishing master
 - Expert traveler to the deepest floor in the cave of the village even reached to the 80 floor under dungeon on desert
@@ -36,7 +36,7 @@ I have played it for 70 hours with original version and finally so the ending in
 - Rich farmer with rich harvest
 - The best donator of relics to Museum who has contributed to the development of civilization of Stardew Valley villiage
 - And having beautiful girl friend who is also a great artist (not married yet)
-- Even have dinosaur with my chicken, sheep, pig, cow and etc. Lucky to see their peace being together..
+- Even have dinosaur with my chicken, sheep, pig, cow and etc. Lucky to see their peace being together!
 
 ![Fishing.png](https://cdn.steemitimages.com/DQmSa1mjQKrP4myFJYtvdR4JeNHpoqX7g858ucLGRhC87kd/Fishing.png)
 
