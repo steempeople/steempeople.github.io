@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+    <meta charset="utf-8">
+<title>[EOS Inside] 바이낸스 Customizable Locked Savings에 EOS 추가 - 디온</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+
+
+
+
+
+<link rel="icon" href="https://www.easyicon.net/api/resizeApi.php?id=1185564&size=32">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.7.2/css/bulma.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,600|Source+Code+Pro">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-dark.css">
+
+
+    
+    
+    
+    <style>body>.footer,body>.navbar,body>.section{opacity:0}</style>
+    
+
+    
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css">
+    
+
+    
+    
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.css">
+
+
+    
+    
+    
+    
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+
+    
+    
+    
+
+    
+    
+    
+        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+
+<link rel="stylesheet" href="/@donekim/css/style.css">
+
+<link rel="stylesheet" href="/@donekim/css/bundle.css"></head>
+<body class="is-2-column">
+    <nav class="navbar navbar-main">
+    <div class="container">
+        <div class="navbar-brand is-flex-center">
+            <a class="navbar-item navbar-logo" href="/@donekim/">
+            
+                <img src="https://avatars0.githubusercontent.com/u/50857551?s=200&v=4" alt="디온" height="28">
+            
+            </a>
+        </div>
+        <div class="navbar-menu">
+            
+            <div class="navbar-start">
+                
+                <a class="navbar-item" href="/@donekim/">Home</a>
+                
+                <a class="navbar-item" href="/@donekim/archives">Archives</a>
+                
+                <a class="navbar-item" href="/@donekim/categories">Categories</a>
+                
+                <a class="navbar-item" href="/@donekim/tags">Tags</a>
+                
+                <a class="navbar-item" href="/@donekim/about">About</a>
+                
+            </div>
+            
+            <div class="navbar-end">
+                
+                
+                <a class="navbar-item is-hidden-tablet catalogue" title="Catalogue" href="javascript:;">
+                    <i class="fas fa-list-ul"></i>
+                </a>
+                
+                
+                <a class="navbar-item search" title="Search" href="javascript:;">
+                    <i class="fas fa-search"></i>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+
+                
+
+
+
+
+
+<div class="column is-4-tablet is-4-desktop is-4-widescreen  has-order-3 column-right is-sticky">
+    
+        
+<div class="card widget" id="toc">
+    <div class="card-content">
+        <div class="menu">
+            <h3 class="menu-label">
+                Catalogue
+            </h3>
+            <ul class="menu-list"><li>
+        <a class="is-flex" href="#1-&#xC774;&#xC728;-&#xBC0F;-&#xC870;&#xAC74;-&#xB4F1;">
+        <span class="has-mr-6">1</span>
+        <span>#1. &#xC774;&#xC728; &#xBC0F; &#xC870;&#xAC74; &#xB4F1;</span>
+        </a></li><li>
+        <a class="is-flex" href="#2-&#xC2A4;&#xD14C;&#xC774;&#xBE14;&#xCF54;&#xC778;&#xC774;-&#xC544;&#xB2CC;-EOS&#xAC00;-&#xCD94;&#xAC00;&#xB41C;-&#xC774;&#xC720;">
+        <span class="has-mr-6">2</span>
+        <span>#2. &#xC2A4;&#xD14C;&#xC774;&#xBE14;&#xCF54;&#xC778;&#xC774; &#xC544;&#xB2CC; EOS&#xAC00; &#xCD94;&#xAC00;&#xB41C; &#xC774;&#xC720;?</span>
+        </a></li><li>
+        <a class="is-flex" href="#3-&#xAC1C;&#xC778;&#xC801;&#xC778;-&#xC0DD;&#xAC01;">
+        <span class="has-mr-6">3</span>
+        <span>#3. &#xAC1C;&#xC778;&#xC801;&#xC778; &#xC0DD;&#xAC01;</span>
+        </a></li></ul>
+        </div>
+    </div>
+</div>
+
+
+    
+    
+</div>
+
+
+                <script src="/@donekim/js/pjax-widget.js"></script>
+
+                <div class="column is-8-tablet is-8-desktop is-8-widescreen has-order-2 column-main"><div class="card">
+    <!-- 
+    <div class="card-image">
+        <span  class="image is-7by1">
+            <img class="thumbnail" src="https://cdn.steemitimages.com/DQmd3ZHDTtZAjn5AHY9daXrCue2ePfHe1cnbHuyWRC19v6j/eos%20binance%20savings.jpg" alt="[EOS Inside] 바이낸스 Customizable Locked Savings에 EOS 추가">
+        </span>
+    </div>
+     -->
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2020-04-11T12:16:12.000Z">2020-04-11</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/@donekim/categories/hive-101145/">hive-101145</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    8 minutes read (About 1230 words)
+                </span>
+                
+                
+                <span class="level-item has-text-grey" id="busuanzi_container_page_pv">
+                    <i class="far fa-eye"></i>
+                    <span id="busuanzi_value_page_pv">0</span> visits
+                </span>
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                [EOS Inside] 바이낸스 Customizable Locked Savings에 EOS 추가
+            
+        </h1>
+        <div class="content">
+            <p><img src="https://cdn.steemitimages.com/DQmd3ZHDTtZAjn5AHY9daXrCue2ePfHe1cnbHuyWRC19v6j/eos%20binance%20savings.jpg" alt="eos binance savings.jpg"></p>
+<p>&#xC548;&#xB155;&#xD558;&#xC138;&#xC694;, &#xB514;&#xC628;&#xC785;&#xB2C8;&#xB2E4;. &#xBC14;&#xC774;&#xB0B8;&#xC2A4;&#xC5D0;&#xC11C; &#xADF8;&#xB3D9;&#xC548; BUSD&#xC640; USDT&#xC5D0;&#xB9CC; &#xC81C;&#xACF5;&#xD574;&#xC624;&#xB358; Customizable Locked Savings&#xC5D0; EOS&#xB97C; &#xCD94;&#xAC00;&#xD558;&#xC600;&#xC2B5;&#xB2C8;&#xB2E4;. Customizable Locked Savings&#xB294; <strong>&#xB9D0; &#xADF8;&#xB300;&#xB85C; &#xC77C;&#xC815;&#xD55C; &#xC57D;&#xC815; &#xAE30;&#xAC04;&#xB3D9;&#xC548; &#xD574;&#xB2F9; &#xD1A0;&#xD070;(&#xCF54;&#xC778;)&#xC744; &#xB77D;&#xC5C5;&#xD574;&#xB193;&#xACE0; &#xC0AC;&#xC804;&#xC5D0; &#xC57D;&#xC815;&#xB41C; &#xC774;&#xC790;&#xC728;&#xB9CC;&#xD07C;&#xC758; &#xD1A0;&#xD070;&#xC744; &#xC774;&#xC790;&#xB85C; &#xBC1B;&#xB294; &#xC11C;&#xBE44;&#xC2A4;</strong>&#xC785;&#xB2C8;&#xB2E4;.</p>
+<ul>
+<li>&#xC6D0;&#xBB38; &#xB9C1;&#xD06C; : <a href="https://binance.zendesk.com/hc/en-us/articles/360041736252" target="_blank" rel="noopener">Binance Adds EOS to Customizable Locked Savings</a></li>
+</ul>
+<h3 id="1-&#xC774;&#xC728;-&#xBC0F;-&#xC870;&#xAC74;-&#xB4F1;"><a href="#1-&#xC774;&#xC728;-&#xBC0F;-&#xC870;&#xAC74;-&#xB4F1;" class="headerlink" title="#1. &#xC774;&#xC728; &#xBC0F; &#xC870;&#xAC74; &#xB4F1;"></a>#1. &#xC774;&#xC728; &#xBC0F; &#xC870;&#xAC74; &#xB4F1;</h3><hr>
+<p><img src="https://cdn.steemitimages.com/DQmQ7tt8NC6JMsb1WF4AagPLc69H3B2XzhvAXaTizRTFN4C/binance.png" alt="binance.png"></p>
+<p>EOS CLS&#xC0C1;&#xD488;&#xC758; &#xC11C;&#xBE44;&#xC2A4;&#xB294; &#xC6B0;&#xB9AC;&#xB098;&#xB77C; &#xC2DC;&#xAC04; &#xAE30;&#xC900;&#xC73C;&#xB85C; 2020&#xB144; 4&#xC6D4; 13&#xC77C; 21&#xC2DC;&#xBD80;&#xD130; &#xC2DC;&#xC791;&#xC774; &#xB418;&#xB294;&#xB370;, <strong>&#xC0C1;&#xD488;&#xC758; &#xB9CC;&#xAE30;&#xB294; 7&#xC77C;&#xACFC; 30&#xC77C; 2&#xAC00;&#xC9C0;&#xB85C; &#xAD6C;&#xC131;</strong>&#xC774; &#xB418;&#xC5B4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<ul>
+<li>7&#xC77C; &#xB9CC;&#xAE30; &#xC0C1;&#xD488; : &#xC5F0;&#xC774;&#xC728; 6%</li>
+<li>30&#xC77C; &#xB9CC;&#xAE30; &#xC0C1;&#xD488; : &#xC5F0;&#xC774;&#xC728; 8%</li>
+</ul>
+<p>&#xD574;&#xB2F9; &#xC0C1;&#xD488;&#xC740; <strong>&#xD55C; &#xAD6C;&#xC88C;&#xB2F9; 10EOS&#xB85C; &#xC2E0;&#xCCAD;&#xC774; &#xAC00;&#xB2A5;&#xD558;&#xBA70; &#xAC1C;&#xC778;&#xB2F9; &#xD55C;&#xB3C4;&#xB294; &#xCD1D; 100,000 EOS</strong>&#xC774;&#xBA70;, &#xD55C; &#xAD6C;&#xC88C;(10 EOS)&#xB97C; &#xD574;&#xB2F9; &#xAE30;&#xAC04; &#xB3D9;&#xC548; &#xB77D;&#xC5C5;&#xD574;&#xB193;&#xB294; &#xACBD;&#xC6B0; &#xB9CC;&#xAE30; &#xC2DC;&#xC5D0; &#xBC1B;&#xAC8C;&#xB418;&#xB294; &#xC218;&#xB7C9;&#xC740; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<ul>
+<li>7&#xC77C; &#xB9CC;&#xAE30; &#xC0C1;&#xD488; : 0.0115 EOS</li>
+<li>30&#xC77C; &#xB9CC;&#xAE30; &#xC0C1;&#xD488; : 0.0658 EOS </li>
+</ul>
+<h3 id="2-&#xC2A4;&#xD14C;&#xC774;&#xBE14;&#xCF54;&#xC778;&#xC774;-&#xC544;&#xB2CC;-EOS&#xAC00;-&#xCD94;&#xAC00;&#xB41C;-&#xC774;&#xC720;"><a href="#2-&#xC2A4;&#xD14C;&#xC774;&#xBE14;&#xCF54;&#xC778;&#xC774;-&#xC544;&#xB2CC;-EOS&#xAC00;-&#xCD94;&#xAC00;&#xB41C;-&#xC774;&#xC720;" class="headerlink" title="#2. &#xC2A4;&#xD14C;&#xC774;&#xBE14;&#xCF54;&#xC778;&#xC774; &#xC544;&#xB2CC; EOS&#xAC00; &#xCD94;&#xAC00;&#xB41C; &#xC774;&#xC720;?"></a>#2. &#xC2A4;&#xD14C;&#xC774;&#xBE14;&#xCF54;&#xC778;&#xC774; &#xC544;&#xB2CC; EOS&#xAC00; &#xCD94;&#xAC00;&#xB41C; &#xC774;&#xC720;?</h3><hr>
+<p><img src="https://cdn.steemitimages.com/DQmchzcfnMQBqdTRpv2PaRn8rcBsgPByodR4nZv32XWTwQu/product.png" alt="product.png"></p>
+<ul>
+<li>&#xB9C1;&#xD06C; : <a href="https://www.binance.com/en/lending/products?type=fixed" target="_blank" rel="noopener">Binance CLS &#xC0C1;&#xD488; &#xD398;&#xC774;&#xC9C0;</a></li>
+</ul>
+<p>&#xD574;&#xB2F9; &#xD398;&#xC774;&#xC9C0;&#xB97C; &#xB4E4;&#xC5B4;&#xAC00;&#xBCF4;&#xC2DC;&#xBA74; &#xBC14;&#xC774;&#xB0B8;&#xC2A4;&#xC758; CLS&#xC0C1;&#xD488;&#xC740; BUSD&#xB098; USDT&#xC0C1;&#xD488; &#xC704;&#xC8FC;&#xB85C; &#xC6B4;&#xC601;&#xC774; &#xB418;&#xC5B4; &#xC654;&#xB294;&#xB370;, &#xC774;&#xBC88;&#xC5D0; EOS&#xAC00; &#xCD94;&#xAC00;&#xB41C; &#xAC83;&#xC740; <strong>&#xBC14;&#xC774;&#xB0B8;&#xC2A4;&#xAC00; EOS&#xBA54;&#xC778;&#xB137;&#xC758; BP&#xB85C; &#xCD9C;&#xB9C8;&#xD55C; &#xAC83;&#xACFC; &#xC5F0;&#xAD00;&#xC774; &#xC788;&#xB294; &#xAC83;&#xC73C;&#xB85C; &#xCD94;&#xCE21;</strong>&#xB429;&#xB2C8;&#xB2E4;.</p>
+<p><img src="https://cdn.steemitimages.com/DQmU95jZCJzzXfWGubVKdkizjUouHQX8nDfW2QCNfyY4Sew/top%20bp%20list.png" alt="top bp list.png"></p>
+<p>&#xC798; &#xC54C;&#xACE0; &#xACC4;&#xC2DC;&#xB294; &#xAC83;&#xCC98;&#xB7FC; &#xD604;&#xC7AC; EOS&#xBA54;&#xC778;&#xB137;&#xC758; &#xC0C1;&#xC704; 21&#xC704; &#xB0B4;&#xC5D0; &#xC18D;&#xD558;&#xB294; Active BP &#xC911;&#xC5D0;&#xC11C;&#xB294; <strong>Bitfinex, Huobi, Newdex, BigOne, OKEx &#xB4F1;&#xC758; &#xAC70;&#xB798;&#xC18C;&#xD615; BP&#xD300;&#xB4E4;</strong>&#xC774; &#xD3EC;&#xD568;&#xB418;&#xC5B4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<p><img src="https://cdn.steemitimages.com/DQmeZAHzeUmSME51TKeoN1uzmAE3FKkCQpVQqpmrYfjq7yN/bp%20list.png" alt="bp list.png"></p>
+<p>&#xBC14;&#xC774;&#xB0B8;&#xC2A4;&#xC5D0;&#xC11C;&#xB3C4; <code>binancestake</code>&#xB77C;&#xB294; &#xACC4;&#xC815;&#xC73C;&#xB85C; BP&#xB97C; &#xC6B4;&#xC601;&#xD558;&#xACE0; &#xC788;&#xACE0;, &#xC790;&#xC2E0;&#xB4E4;&#xC774; &#xBCF4;&#xC720;&#xD558;&#xACE0; &#xC788;&#xB294; &#xC2A4;&#xD14C;&#xC774;&#xD0B9; &#xC218;&#xB7C9;&#xC744; &#xD65C;&#xC6A9;&#xD558;&#xC5EC; &#xD22C;&#xD45C;&#xB97C; &#xD558;&#xACE0; &#xC788;&#xC73C;&#xB098; &#xC544;&#xC9C1; 25&#xC704;&#xC778; &#xC2A4;&#xD0E0;&#xBC14;&#xC774; BP&#xC5D0; &#xBA38;&#xBB3C;&#xB7EC; &#xC788;&#xB294; &#xC0C1;&#xD669;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<p><img src="https://cdn.steemitimages.com/DQmdsL8MkHJd1iBPLA5hh8gsSyfv2boYw6HBtwfSmQkFXY5/vpay.png" alt="vpay.png"></p>
+<p>&#xC561;&#xD2F0;&#xBE0C;BP&#xB4E4;&#xC740; &#xB9E4;&#xC77C; &#xBE14;&#xB85D;&#xC0DD;&#xC131;&#xC5D0; &#xB530;&#xB978; &#xBCF4;&#xC0C1;&#xC778; BPAY&#xC640; &#xD22C;&#xD45C;&#xBCF4;&#xC0C1;&#xC778; VPAY&#xB97C; &#xBAA8;&#xB450; &#xBC1B;&#xC9C0;&#xB9CC;, &#xC2A4;&#xD0E0;&#xBC14;&#xC774;BP&#xC758; &#xACBD;&#xC6B0;&#xC5D0;&#xB294; &#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xD22C;&#xD45C;&#xBCF4;&#xC0C1;&#xC778; VPAY&#xBC16;&#xC5D0; &#xBC1B;&#xC9C0; &#xBABB;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0;, <strong>&#xD604;&#xC7AC; &#xBC14;&#xC774;&#xB0B8;&#xC2A4;&#xC758; &#xBAA9;&#xD45C;&#xB294; &#xC790;&#xC2E0;&#xB4E4;&#xC758; &#xAC70;&#xB798;&#xC18C;&#xC5D0; &#xC608;&#xCE58; &#xC911;&#xC778; &#xACE0;&#xAC1D;&#xB4E4;&#xC758; EOS&#xB97C; &#xD65C;&#xC6A9;&#xD558;&#xC5EC; 21&#xC704; &#xC774;&#xB0B4;&#xB85C; &#xC62C;&#xB77C;&#xAC00;&#xB294; &#xAC83;&#xC744; &#xBAA9;&#xD45C;</strong>&#xB85C; &#xD558;&#xACE0; &#xC788;&#xC744; &#xD655;&#xB960;&#xC774; &#xB192;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC0AC;&#xC2E4; <strong>&#xD604;&#xC7AC;&#xC758; VPAY&#xB9CC;&#xC73C;&#xB85C;&#xB3C4; &#xD604;&#xC7AC; CLS&#xC758; 7&#xC77C; &#xC0C1;&#xD488;&#xACFC; 30&#xC77C; &#xC0C1;&#xD488;&#xC5D0; &#xC81C;&#xC2DC;&#xB418;&#xC5B4; &#xC788;&#xB294; &#xC5F0;&#xC774;&#xC790;&#xC728; 6%&#xC640; 8%&#xB294; &#xC804;&#xD600; &#xBB38;&#xC81C;&#xAC00; &#xB418;&#xC9C0; &#xC54A;&#xB294; &#xC218;&#xC900;</strong>&#xC778;&#xB370;, BPAY&#xAE4C;&#xC9C0; &#xBC1B;&#xAC8C; &#xB41C;&#xB2E4;&#xBA74; &#xADF8; &#xC218;&#xC775;&#xB3C4; &#xC815;&#xB9D0; &#xBB34;&#xC2DC;&#xD560; &#xC218; &#xC5C6;&#xB294; &#xC218;&#xC900;&#xC774; &#xB418;&#xACA0;&#xC8E0;.</p>
+<h3 id="3-&#xAC1C;&#xC778;&#xC801;&#xC778;-&#xC0DD;&#xAC01;"><a href="#3-&#xAC1C;&#xC778;&#xC801;&#xC778;-&#xC0DD;&#xAC01;" class="headerlink" title="#3. &#xAC1C;&#xC778;&#xC801;&#xC778; &#xC0DD;&#xAC01;"></a>#3. &#xAC1C;&#xC778;&#xC801;&#xC778; &#xC0DD;&#xAC01;</h3><hr>
+<p>&#xC9C0;&#xAE08;&#xAE4C;&#xC9C0;&#xB294; &#xAC70;&#xB798;&#xC18C;&#xAC00; &#xD2B9;&#xC815; &#xD06C;&#xB9BD;&#xD1A0; &#xC0DD;&#xD0DC;&#xACC4;&#xC758; &#xAC70;&#xBC84;&#xB10C;&#xC2A4;&#xC5D0; &#xAE4A;&#xC774; &#xCC38;&#xC5EC;&#xD558;&#xB294; &#xAC83;&#xC740; <strong>&#xAD49;&#xC7A5;&#xD788; &#xBD80;&#xC815;&#xC801;&#xC778; &#xC778;&#xC2DD;&#xC774; &#xC788;&#xC5B4;&#xC654;&#xB358; &#xAC83;&#xC774; &#xC0AC;&#xC2E4;</strong>&#xC785;&#xB2C8;&#xB2E4;. &#xC2E4;&#xC81C;&#xC801;&#xC73C;&#xB85C; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC758; &#xBD88;&#xC548;&#xC815;&#xC131; &#xBB38;&#xC81C;&#xAC00; &#xBC1C;&#xC0DD;&#xD558;&#xB294; &#xACBD;&#xC6B0;, &#xC0C8;&#xB85C;&#xC6B4; &#xC774;&#xC288;&#xD574;&#xACB0; &#xBC0F; &#xC5C5;&#xB370;&#xC774;&#xD2B8; &#xB4F1;&#xC744; &#xB300;&#xD55C; MSIG &#xD22C;&#xD45C;&#xC5D0; &#xCC38;&#xC5EC;&#xD558;&#xC9C0; &#xC54A;&#xB294; &#xACBD;&#xC6B0;&#xB4E4;&#xB3C4; &#xB9CE;&#xC558;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<p>&#xC800;&#xB3C4; &#xAC70;&#xB798;&#xC18C;&#xB4E4;&#xC758; &#xAC70;&#xBC84;&#xB10C;&#xC2A4; &#xCC38;&#xC5EC;&#xC5D0; &#xB300;&#xD574;&#xC11C;&#xB294; &#xB9E4;&#xC6B0; &#xBD80;&#xC815;&#xC801;&#xC778; &#xC778;&#xC0C1;&#xC774; &#xAC15;&#xD588;&#xC73C;&#xB098;, <strong>&#xAC70;&#xBC84;&#xB10C;&#xC2A4;&#xC5D0; &#xC788;&#xC5B4; &#xC911;&#xB9BD;&#xC801;&#xC778; &#xC785;&#xC7A5;&#xC744; &#xAC00;&#xC9C0;&#xACE0; &#xC870;&#xAE08;&#xC740; &#xC815;&#xCE58;&#xC801;&#xC778; &#xC774;&#xC288;&#xAC00; &#xBC1C;&#xC0DD;&#xD588;&#xC744; &#xB54C; &#xC5B4;&#xB290; &#xD3B8;&#xC5D0;&#xB3C4; &#xC11C;&#xC9C0; &#xC54A;&#xB294; BP&#xD300;&#xC774; &#xC788;&#xB294; &#xAC83;&#xB3C4; &#xB124;&#xD2B8;&#xC6CC;&#xD06C;&#xC758; &#xC548;&#xC815;&#xC131; &#xC720;&#xC9C0;&#xC5D0; &#xC788;&#xC5B4; &#xB9E4;&#xC6B0; &#xC911;&#xC694;&#xD558;&#xB2E4;</strong>&#xB294; &#xAC83;&#xC744; &#xCD5C;&#xADFC; &#xB4E4;&#xC5B4;&#xC11C; &#xB9CE;&#xC774; &#xAE68;&#xB2EB;&#xACE0; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. </p>
+<p>&#xBB3C;&#xB860; &#xB300;&#xD615; &#xAC70;&#xB798;&#xC18C;&#xB4E4;&#xC774; &#xC774;&#xB7EC;&#xD55C; &#xAE08;&#xC735;&#xC0C1;&#xD488; &#xC6B4;&#xC601;&#xC744; &#xD1B5;&#xD574; <strong>&#xC790;&#xC2E0;&#xB4E4;&#xC758; BP&#xB610;&#xB294; &#xD504;&#xB85D;&#xC2DC;&#xB97C; &#xC6B4;&#xC601;&#xD558;&#xB294; &#xAC83;&#xC740; &#xC790;&#xBC1C;&#xC801;&#xC778; &#xCEE4;&#xBBA4;&#xB2C8;&#xD2F0; &#xAE30;&#xBC18; &#xAC1C;&#xC778;&#xB4E4;&#xC758; &#xD65C;&#xB3D9;&#xC744; &#xC704;&#xCD95;&#xC2DC;&#xD0A4;&#xB294; &#xBD80;&#xC791;&#xC6A9;</strong>&#xB3C4; &#xBD84;&#xBA85;&#xD788; &#xC788;&#xC5B4;&#xC11C; &#xC544;&#xC27D;&#xAE34; &#xD558;&#xC9C0;&#xB9CC;, &#xACBD;&#xC81C;&#xC801; &#xC778;&#xC13C;&#xD2F0;&#xBE0C;&#xAC00; &#xB300;&#xB2E4;&#xC218;&#xC758; &#xD1A0;&#xD070; &#xD640;&#xB354;&#xB4E4;&#xC758; &#xC120;&#xD0DD;&#xC5D0; &#xC788;&#xC5B4; &#xAC00;&#xC7A5; &#xC911;&#xC694;&#xD55C; &#xC694;&#xC18C;&#xAC00; &#xB41C;&#xB2E4;&#xB294; &#xC810;&#xB3C4; &#xC778;&#xC815;&#xC740; &#xD574;&#xC57C; &#xD558;&#xACA0;&#xC8E0;. </p>
+<p>&#xC774;&#xBC88; CLS &#xC0C1;&#xD488;&#xC5D0; EOS&#xB97C; &#xCD94;&#xAC00;&#xD568;&#xC73C;&#xB85C;&#xC368; &#xACFC;&#xC5F0; &#xBC14;&#xC774;&#xB0B8;&#xC2A4;&#xB3C4; &#xAC70;&#xB798;&#xC18C; &#xAE30;&#xBC18; &#xC561;&#xD2F0;&#xBE0C;BP&#xD300;&#xC73C;&#xB85C; &#xD569;&#xB958;&#xD558;&#xAC8C; &#xB420; &#xC218; &#xC788;&#xC744; &#xAC83;&#xC778;&#xC9C0;&#xB97C; &#xD55C; &#xBC88; &#xC9C0;&#xCF1C;&#xBD10;&#xC57C;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<hr>
+<p>This page is synchronized from the post: <a href="https://steemit.com/@donekim/eos-inside-customizable-locked-savings-eos" target="_blank" rel="noopener">&#x2018;[EOS Inside] &#xBC14;&#xC774;&#xB0B8;&#xC2A4; Customizable Locked Savings&#xC5D0; EOS &#xCD94;&#xAC00;&#x2019;</a></p>
+<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
+        </div>
+        
+        <div class="level is-size-7 is-uppercase">
+            <div class="level-start">
+                <div class="level-item">
+                    <span class="is-size-6 has-text-grey has-mr-7">#</span>
+                    <a class="has-link-grey -link" href="/@donekim/tags/dblog/">dblog</a>, <a class="has-link-grey -link" href="/@donekim/tags/hive-101145/">hive-101145</a>, <a class="has-link-grey -link" href="/@donekim/tags/liv/">liv</a>, <a class="has-link-grey -link" href="/@donekim/tags/mini/">mini</a>, <a class="has-link-grey -link" href="/@donekim/tags/s/">s</a>, <a class="has-link-grey -link" href="/@donekim/tags/sct/">sct</a>, <a class="has-link-grey -link" href="/@donekim/tags/sct-coin/">sct-coin</a>, <a class="has-link-grey -link" href="/@donekim/tags/sct-kr/">sct-kr</a>, <a class="has-link-grey -link" href="/@donekim/tags/union/">union</a>, <a class="has-link-grey -link" href="/@donekim/tags/zzan/">zzan</a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        
+<div class="sharethis-inline-share-buttons"></div>
+<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5ab6f60ace89f00013641890&amp;product=inline-share-buttons" async="async"></script>
+
+        
+    </div>
+</div>
+
+
+
+
+
+<div class="card card-transparent">
+    <div class="level post-navigation is-flex-wrap is-mobile">
+        
+        <div class="level-start">
+            <a class="level level-item has-link-grey  article-nav-prev" href="/@donekim/guide-mimeebot/">
+                <i class="level-item fas fa-chevron-left"></i>
+                <span class="level-item">[GUIDE] 디스코드 MimeeBot으로 스팀잇 알림 받아보기 설정하는 방법</span>
+            </a>
+        </div>
+        
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/@donekim/hive-ama-300-hive/">
+                <span class="level-item">프로빗 거래소에서 HIVE팀을 모시고 AMA를!? 상금이 무려 300 HIVE!</span>
+                <i class="level-item fas fa-chevron-right"></i>
+            </a>
+        </div>
+        
+    </div>
+</div>
+
+
+</div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+    <div class="container">
+        <div class="level">
+            <div class="level-start has-text-centered-mobile">
+                <a class="footer-logo is-block has-mb-6" href="/@donekim/">
+                
+                    <img src="https://avatars0.githubusercontent.com/u/50857551?s=200&v=4" alt="디온" height="28">
+                
+                </a>
+                <p class="is-size-7">
+                &copy; 2020 디온&nbsp;
+                Powered by <a href="https://hexo.io/" target="_blank">Hexo</a> & <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank">Icarus</a>
+                
+                <br>
+                <span id="busuanzi_container_site_uv">
+                Visited by <span id="busuanzi_value_site_uv">0</span> users
+                </span>
+                
+                </p>
+            </div>
+            <div class="level-end">
+            
+                <div class="field has-addons is-flex-center-mobile has-mt-5-mobile is-flex-wrap is-flex-middle">
+                
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Creative Commons" href="https://creativecommons.org/">
+                        
+                        <i class="fab fa-creative-commons"></i>
+                        
+                    </a>
+                </p>
+                
+                <p class="control">
+                    <a class="button is-white is-large" target="_blank" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/">
+                        
+                        <i class="fab fa-creative-commons-by"></i>
+                        
+                    </a>
+                </p>
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script>
+<script>moment.locale("en_US.UTF-8");</script>
+
+
+    
+    
+    
+    <script src="/@donekim/js/animation.js"></script>
+    
+
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script>
+    
+    
+
+    
+    
+
+<div id="outdated">
+    <h6>Your browser is out-of-date!</h6>
+    <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update
+            my browser now </a></p>
+    <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/outdatedbrowser@1.1.5/outdatedbrowser/outdatedbrowser.min.js" defer></script>
+<script>document.addEventListener("DOMContentLoaded",function(){outdatedBrowser({bgColor:"#f25648",color:"#ffffff",lowerThan:"flex"})});</script>
+
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script>
+<script>document.addEventListener("DOMContentLoaded",function(){MathJax.Hub.Config({"HTML-CSS":{matchFontHeight:!1},SVG:{matchFontHeight:!1},CommonHTML:{matchFontHeight:!1},tex2jax:{inlineMath:[["$","$"],["\\(","\\)"]]}})});</script>
+
+    
+    
+
+<a id="back-to-top" title="Back to Top" href="javascript:;">
+    <i class="fas fa-chevron-up"></i>
+</a>
+
+
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script>
+    
+    
+
+    
+    
+    
+
+    
+
+
+
+
+
+    
+    <div class="searchbox ins-search">
+    <div class="searchbox-container ins-search-container">
+        <div class="searchbox-input-wrapper">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="Type something...">
+            <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="searchbox-result-wrapper ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>window.INSIGHT_CONFIG={TRANSLATION:{POSTS:"Posts",PAGES:"Pages",CATEGORIES:"Categories",TAGS:"Tags",UNTITLED:"(Untitled)"},CONTENT_URL:"/@donekim/content.json"};</script>
+
+
+
+    
+<script src="/@donekim/js/bundle.js" defer></script></body>
+</html>
+
