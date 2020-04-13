@@ -120,7 +120,7 @@ I can be a good curator.
 ##### 1. I have experence of running book club
 
 
-I can bring people who like books outside of Steam. I have been running an offline book club for a year and a half. the number of offline book club is 60. We have a regular meeting once a week or once 2 weeks. The experience of running book club helps me run and curate book club in steem community.
+I can bring people who like books outside of Steam. I have been running an offline book club for a year and a half. the number of offline book club is 60 members. We have a regular meeting once a week or once 2 weeks. The experience of running book club helps me run and curate book club in steem community.
 
 
 
