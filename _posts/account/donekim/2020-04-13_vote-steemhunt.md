@@ -8,9 +8,8 @@ toc: true
 position: 9999
 date: 2020-04-13 01:01:27
 categories:
-- hive-101145
+- sct-kr
 tags:
-- hive-101145
 - sct-kr
 - sct-coin
 - liv
@@ -102,6 +101,13 @@ widgets:
 ![transaction.png](https://cdn.steemitimages.com/DQmR9WEZw41iKFca93zfeVvmbpGuhsMh8PL4aLfYAB8XVUu/transaction.png)
 
 (4) 투표 결과는 https://steemd.com/@계정명  으로 접속하면 위와 같이 투명하게 확인하실 수 있습니다.
+
+
+혹시라도 스팀헌트에 보관 중인 HUNT토큰을 찾는 방법 및 이더리움 월렛을 연결하는 방법이 궁금하신 분들은 아래의 포스팅을 먼저 참고해주시기 바랍니다.
+
+> 스팀헌트 플랫폼에 **HUNT토큰을 보관 중인 이더리움 월렛(메타마스크)을 연결하는 경우에도 투표 참여가 가능**하며, 아래의 포스팅에 메타마스크로 연결하는 방법도 설명되어 있습니다.
+
+- 링크 : [[HUNT] 내 스팀 계정에 잠자고 있는 HUNT Token을 찾아보는 방법](https://steemit.com/hive-101145/@donekim/hunt-hunt-token)
 
 - - -
 
