@@ -8,9 +8,8 @@ toc: true
 position: 9999
 date: 2020-04-18 06:29:42
 categories:
-- hive-101145
+- sct-kr
 tags:
-- hive-101145
 - sct-kr
 - sct-coin
 - liv
