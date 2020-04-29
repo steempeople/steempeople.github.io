@@ -93,6 +93,10 @@ EPIC등급의 카드의 경우 **일반카드가 46장 / 골드카드가 10장�
 
 새로운 프로모 카드를 어떤 방식으로 얻을 수 있을지는 잘 모르겠지만, 한국 커뮤니티 멤버분들 중에서 많은 분들이 충분히 겟 하시길 기원합니다 :)
 
+
+<center><sub><바이낸스 거래소 수수료 20% 할인 받기(아래 이미지 클릭)></sub></center>
+<a href="http://www.binance.com/en/register?ref=MFIX59H5"><img src="https://cdn.steemitimages.com/DQmUaHkWCryBU1sXt9fmERzVbLPLEFTCbF7E3UeMYpChgVA/binance%20putter.png"></a>
+
 - - -
 
 This page is synchronized from the post: ['[SPLINTERLANDS] 비트코인 반감기 기념 이벤트 (새로운 프로모 카드 출시 + 토너먼트 개최)'](https://steemit.com/@donekim/6zc75a-splinterlands)
