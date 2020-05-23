@@ -8,9 +8,8 @@ toc: true
 position: 9999
 date: 2020-05-22 09:34:30
 categories:
-- hive-101145
+- sct-kr
 tags:
-- hive-101145
 - sct-kr
 - sct-freeboard
 - the100daysofsteem
@@ -39,7 +38,7 @@ widgets:
 
 2. 자신이 원하는 언어로 일기를 100글자 이상 쓰면 됩니다. 태그는 #the100daysofsteem, #thediarygame을 붙입니다.
 
-3. 일주일에한번 다이어리 랭킹 포스팅을 쓰겠다고합니다.
+3. 스팀잇 재단에서 일주일에한번 다이어리 랭킹 포스팅을 쓰겠다고합니다.
 
 상금이랑 보팅이 얼마인지는 모르겠지만, 보팅, 상금을 준다고 합니다.
 관심있으신 분들은 참여해보세요!
