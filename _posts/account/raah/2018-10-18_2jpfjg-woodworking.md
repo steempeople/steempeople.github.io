@@ -1,0 +1,97 @@
+
+---
+title: '[Woodworking]쌍둥이 수툴 만들기'
+permlink: 2jpfjg-woodworking
+catalog: true
+toc_nav_num: true
+toc: true
+position: 9999
+date: 2018-10-18 01:52:21
+categories:
+- jjangjjangman
+tags:
+- jjangjjangman
+- howsmate
+- busy
+- dclick
+- kr
+thumbnail: 'https://cdn.steemitimages.com/DQmahV7Tb81H26Y8noRKKidjHDoiqLwXAWSmrS4PFPcZprW/%EC%88%98%ED%88%B4raah.jpg'
+sidebar:
+    right:
+        sticky: true
+widgets:
+    -
+        type: toc
+        position: right
+---
+
+
+ 
+
+드디어 두개 다 만들었습니다.
+![수툴raah.jpg](https://cdn.steemitimages.com/DQmahV7Tb81H26Y8noRKKidjHDoiqLwXAWSmrS4PFPcZprW/%EC%88%98%ED%88%B4raah.jpg)
+
+#### 레일톱으로 다리기본형 만들기
+잘리는 날의 깊이, 각도 모두 간단하게  조절 가능합니다.
+자작나무합판 18MM~24MM 정도 사용해서 다리를 만듭니다.
+
+![](https://cdn.steemitimages.com/DQmbLV9vkmaKRJ1n5ZZ8WDBTJqbDXfuZrAP11jdWryZcPH3/image.png)
+
+### 곡선부분은
+ 판재가 직각 사각형이라면 트리머를 써도 되지만 스크롤 쏘를 썼습니다.
+![](https://cdn.steemitimages.com/DQmPHYri2KxD7m5ENYYjyXCuzxB6JMiSHmkZ57y3cVW9RTG/image.png)
+
+## 홈파기위한 톱질연습
+
+직각으로 정확하게 홈파기위해 연습연습 ㅎㅎ
+![](https://cdn.steemitimages.com/DQmNZFrH946vUmLqPgYkyHgwH9kjJBoSZPG68HyG2BoLkiZ/image.png)
+
+https://www.youtube.com/watch?v=S2RIItdWEng
+
+연습을 했으니 용기내어 중앙에 홈을 냅니다. 
+![](https://cdn.steemitimages.com/DQmUCVzJa2HERAsLfRyua8H8ZV5GF2DVFDEJs2nDQtmf35x/image.png)
+부재가 사각형이라면 홈을 트리머로 미리 파는 게 좋습니다.
+
+### 조립
+![](https://cdn.steemitimages.com/DQmcPfWQxutTbQsZ77P6y588zTVD54cgqnqLkuvHtzPkpLc/image.png)
+목공풀로 직각고정 후 피스와 목다보로 보강했어요
+
+### 듀얼도웰로 40 mm구멍두개씩 뚫고 
+목다보를 끼워서 상판 고정합니다.
+![](https://cdn.steemitimages.com/DQmU8gDzzQUj1XPLQf1oWw7LeyLHKHqJthv5mDrm61qrcqy/image.png)
+하나는 이렇게 끼웠었죠 ^^
+![](https://cdn.steemitimages.com/DQmYMA8fMG9AJv42rqMS85tbR3wKfPQQbuuET5DRgwR5xeF/image.png)
+
+#### [Video] 듀얼 도웰
+깊이와 높이등 간단하게 조절 가능합니다. 
+판재두께가 24mm면 도웰의 날을 12mm로 , 깊이 적당히 정하면 그대로 중앙에 뚤립니다.
+https://www.youtube.com/watch?v=tEUkOA-MsyI
+
+전에 만든것은 다리중앙에 직각 삼마무 판재로 지지대를 끼웠는데...
+하나 목다보로 끼우고, 돌아가며 하나씩 끼워넣고 마지막에 기리 피스로 박고 목다보마무리 했는데
+![](https://cdn.steemitimages.com/DQmQvr8oTwioe7bHdbvxz4hFwoK3rQJb2xE4bcpDJgf1TTK/image.png)
+중간에 집어던질뻔 했어요 
+이번엔 생략했어요. 
+
+
+![](https://cdn.steemitimages.com/DQmatpbpVBdqKFjsq6Qr59bT5j6EAFULw9hj6m8bSTGbjcG/image.png)
+상판과 그 아래 보강목이 멀바우(호두)인데 너무 딱딱해서 타카핀은 사용 불가 ㅠㅠ
+상판 위에서 수직으로 8mm목다보 네 개 때려 박고 완성. 
+![](https://cdn.steemitimages.com/DQmTE5uWZnttMNSt9mJh57gzgFFVdjJSm1nKt2u4oYn2FQp/image.png)
+요게 전에 만들었던것이죠 ^^
+
+@raah 였습니다.
+![04_끷뀿_됣뀽_먤뀿_료꼱_녁넫_됣뀫_끷뀫_솽꼱_듄__⒰넽.gif](https://cdn.steemitimages.com/DQmPEskQgzJ6U1b46W8HgSDYFNc7uXTddXJQ14rtsq2HWn2/04_%EB%81%B7%EB%80%BF_%EB%90%A3%EB%80%BD_%EB%A8%A4%EB%80%BF_%EB%A3%8C%EA%BC%B1_%EB%85%81%EB%84%AB_%EB%90%A3%EB%80%AB_%EB%81%B7%EB%80%AB_%EC%86%BD%EA%BC%B1_%EB%93%84__%E2%92%B0%EB%84%BD.gif)
+![업봇.jpg](https://cdn.steemitimages.com/DQmXjarHNH3HiwThMaNDvPFF9615paehzyfD59wDuzBeLQk/%EC%97%85%EB%B4%87.jpg)
+보팅소녀 이미지는@cheongpyeongyull 님이 그려주신 작품입니다.감사드립니다
+
+
+***
+#####  <sub> **Sponsored ( Powered by [dclick](https://www.dclick.io) )** </sub>
+##### [DCLICK: An Incentivized Ad platform by Proof of Click - 스팀 기반 애드센스를 소개합니다.](https://api.dclick.io/v1/c?x=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJyYWFoIiwidXJsIjoiaHR0cHM6Ly9zdGVlbWl0LmNvbS9kY2xpY2svQGRjbGljay9kY2xpY2stYW4taW5jZW50aXZpemVkLWFkLXBsYXRmb3JtLWJ5LXByb29mLW9mLWNsaWNrLSIsImlhdCI6MTUzODgzMDQxMCwiZXhwIjoxODU0MTkwNDEwfQ.w11m0tm8lZlXV8KHY_X1qTk9E0K_7gEBmt12stmDw6w)
+<sup>안녕하세요 스티미언 여러분. 오늘 여러분께 스팀 블록체인 기반 광고 플랫폼 DCLICK을 소개...</sup>
+<br><center>![logo](https://steemitimages.com/200x100/https://cdn.steemitimages.com/DQmbjkrc5UT4GgZXygAnS3mLrboAy7Y8gr7R7guB8HG3f5n/logopad500.png)<br><br>이 글은 스팀 기반 광고 플랫폼<br>[dclick](https://www.dclick.io) 에 의해 작성 되었습니다.</center>
+
+- - -
+
+This page is synchronized from the post: ['[Woodworking]쌍둥이 수툴 만들기'](https://steemit.com/@raah/2jpfjg-woodworking)
