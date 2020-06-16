@@ -14,7 +14,7 @@ tags:
 - katechoice
 - kateschoice
 - kr
-thumbnail: 'https://cdn.steemitimages.com/DQmWcMYgQoM3mKv8fijLM3WAJyuxNE5sXuB5rLhxUNqPfQW/image.png'
+thumbnail: 'https://cdn.steemitimages.com/DQmd3ihaNo7uKSpEhv5WE1zFg4fpamKSXJznQ51MdGrNsvp/image.png'
 sidebar:
     right:
         sticky: true
@@ -23,6 +23,9 @@ widgets:
         type: toc
         position: right
 ---
+
+
+![image.png](https://cdn.steemitimages.com/DQmd3ihaNo7uKSpEhv5WE1zFg4fpamKSXJznQ51MdGrNsvp/image.png)
 
 
 JJM을 스테이킹 하는 분들에게는 세 가지 특혜가 있습니다.
