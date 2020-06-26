@@ -8,9 +8,8 @@ toc: true
 position: 9999
 date: 2020-06-25 10:35:54
 categories:
-- zzan
+- jjm
 tags:
-- zzan
 - jjm
 - kr
 - woodworking
@@ -39,6 +38,10 @@ widgets:
 ![20200624_122204.jpg](https://cdn.steemitimages.com/DQmRwtJ5tVTty9zcXTbKrmDfZAYzaDbzYA1zFyKmvcwwkgy/20200624_122204.jpg)
 
 톱과 직각자 들고가서 33cm톱질  4회한것일 뿐인데요  ㅎ
+
+이렇게 바꿔놓으니 좋네요
+
+![CollageMaker_20200626_091322051.jpg](https://cdn.steemitimages.com/DQmRN46zuz5AYoX5JnJxvzHFP752CkFyCXpTf5B7b14wr9g/CollageMaker_20200626_091322051.jpg)
 
 - - -
 
