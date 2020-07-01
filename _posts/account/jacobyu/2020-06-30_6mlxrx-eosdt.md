@@ -41,6 +41,9 @@ Eosdt 충분한 매수,매도가 있는곳이 여기밖에 없네요.
 현금으로 갖고있기는 아쉽다면 ㅋㅋ
 Eosdt를 추천드립니다.
 
+아.. ㅋㅋ eosdt사서 스테이킹하면
+이자가 11퍼쯤됩니다.
+
 - - -
 
 This page is synchronized from the post: ['Eosdt 추가구매'](https://steemit.com/@jacobyu/6mlxrx-eosdt)
