@@ -12,8 +12,7 @@ categories:
 tags:
 - blurt
 - zzan
-- jjm
-- mini
+- test
 - kr
 thumbnail: 'https://cdn.steemitimages.com/DQmNUYttPwL2nEhCGRXSxp3WnEt4W63d9jwYKXLHiPGinPM/image.png'
 sidebar:
