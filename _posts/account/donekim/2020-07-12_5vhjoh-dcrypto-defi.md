@@ -59,6 +59,11 @@ DeFi Rate에서 제공하는 2020년 한 해 동안의 BTC, ETH, DeFi토큰들�
 
 이런 현실 속에서 CEX에 절대 상장 수수료를 제공하지 않은 DeFi 토큰들을 국내 거래소에서 자유롭게 거래할 수 있는 날은 오지 않을지도 모릅니다. 정말 많은 사람들이 바이낸스, 바이낸스! 하는 이유를 알 것도 같아요.
 
+
+<center><sub><바이낸스 거래수수료 20%를 할인받을 수 있는 VIP전용 가입링크(1달 한정)></sub></center>
+<a href="http://www.binance.com/en/register?ref=MFIX59H5"><img src="https://cdn.steemitimages.com/DQmUaHkWCryBU1sXt9fmERzVbLPLEFTCbF7E3UeMYpChgVA/binance%20putter.png"></a>
+
+
 - - -
 
 This page is synchronized from the post: ['[dCRYPTO] DeFi 트렌드에 상대적으로 둔감한 한국 거래소'](https://steemit.com/@donekim/5vhjoh-dcrypto-defi)
