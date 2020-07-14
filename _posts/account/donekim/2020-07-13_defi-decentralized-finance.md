@@ -87,6 +87,10 @@ DeFi의 가장 큰 이점은 위에서 잠깐 언급한 것처럼 **사용자들
 
 DeFi 생태계는 여전히 태동하기 전의 극초기 단계에 있으니, 조급해하실 필요 없이 천천히 관심을 가지고 하나씩 공부를 해보시면서 투자 여부를 판단해보셔도 전혀 문제는 없을 듯 싶습니다 :)
 
+
+<center><sub><바이낸스에서 거래수수료 20%를 할인받을 수 있는 VIP전용 가입링크(배너클릭!)></sub></center>
+<a href="http://www.binance.com/en/register?ref=MFIX59H5"><img src="https://cdn.steemitimages.com/DQmUaHkWCryBU1sXt9fmERzVbLPLEFTCbF7E3UeMYpChgVA/binance%20putter.png"></a>
+
 - - -
 
 This page is synchronized from the post: ['[DeFi] 디파이 초보자들을 위한 탈중앙화금융(Decentralized Finance) 생태계 간단 정리'](https://steemit.com/@donekim/defi-decentralized-finance)

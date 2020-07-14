@@ -58,6 +58,12 @@ GDAC거래소에서 배포한 위의 자료만 확인해보더라도, **국내 �
 
 그러나, **장기적인 관점에서 접근했을 때는, 차라리 스테이블코인을 비롯한 디지털자산(암호화폐)의 규제 지침을 준수할만한 인프라를 구성하고 원화-스테이블코인 마켓을 선점하는 것이 분명 괜찮은 전략**이 될 것이라고 생각합니다. 이 예상이 맞을지 틀릴지는 커브 파이낸스의 성공 여부를 잘 확인해보면 되지 않을까 싶네요.
 
+
+
+
+<center><sub><바이낸스에서 거래수수료 20%를 할인받을 수 있는 VIP전용 가입링크(배너클릭!)></sub></center>
+<a href="http://www.binance.com/en/register?ref=MFIX59H5"><img src="https://cdn.steemitimages.com/DQmUaHkWCryBU1sXt9fmERzVbLPLEFTCbF7E3UeMYpChgVA/binance%20putter.png"></a>
+
 - - -
 
 This page is synchronized from the post: ['[dCRYPTO] 국내 거래소도 StableCoin의 적극적인 도입이 필요하다'](https://steemit.com/@donekim/dcrypto-stablecoin)
