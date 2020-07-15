@@ -52,6 +52,10 @@ widgets:
 
 혹시라도 개인 이더리움 월렛에서 KyberDAO를 이용하는 것이 어렵게 느껴지시는 분들은 바이낸스 스테이킹을 이용하시는 것도 괜찮은 옵션이 될 것 같습니다.
 
+
+<center><sub><바이낸스에서 거래수수료 20%를 할인받을 수 있는 VIP전용 가입링크(배너클릭!)></sub></center>
+<a href="http://www.binance.com/en/register?ref=MFIX59H5"><img src="https://cdn.steemitimages.com/DQmUaHkWCryBU1sXt9fmERzVbLPLEFTCbF7E3UeMYpChgVA/binance%20putter.png"></a>
+
 - - -
 
 This page is synchronized from the post: ['[dCRYPTO] Binance Staking에 카이버네트워크(KNC) 신규 추가 + 100,000달러 추가 리워드'](https://steemit.com/@donekim/dcrypto-binance-staking-knc-100-000)
