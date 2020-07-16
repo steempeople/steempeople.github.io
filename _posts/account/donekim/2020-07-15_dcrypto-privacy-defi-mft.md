@@ -66,6 +66,10 @@ widgets:
 
 일단 메인프레임의 경우에는 이번의 새로운 백서 발표와 관련하여 7월 17일(금)에 AMA를 진행할 예정이라고 하니, 추가적인 정보가 필요하신 분들은 해당 AMA를 참고하시기 바랍니다.
 
+
+<center><sub><바이낸스에서 거래수수료 20%를 할인받을 수 있는 VIP전용 가입링크(배너클릭!)></sub></center>
+<a href="http://www.binance.com/en/register?ref=MFIX59H5"><img src="https://cdn.steemitimages.com/DQmUaHkWCryBU1sXt9fmERzVbLPLEFTCbF7E3UeMYpChgVA/binance%20putter.png"></a>
+
 - - -
 
 This page is synchronized from the post: ['[dCRYPTO] Privacy에서 DeFi로 프로젝트 피봇팅을 선언한 메인프레임(MFT)'](https://steemit.com/@donekim/dcrypto-privacy-defi-mft)

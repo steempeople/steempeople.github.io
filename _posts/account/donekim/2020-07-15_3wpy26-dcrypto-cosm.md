@@ -80,7 +80,13 @@ widgets:
 뭔가 조금이나마 이해가 가는 이유가 있길 바랐는데, 진짜 제대로 요단강을 건너버린 것 같네요.
 
 
+<center><sub><바이낸스에서 거래수수료 20%를 할인받을 수 있는 VIP전용 가입링크(배너클릭!)></sub></center>
+<a href="http://www.binance.com/en/register?ref=MFIX59H5"><img src="https://cdn.steemitimages.com/DQmUaHkWCryBU1sXt9fmERzVbLPLEFTCbF7E3UeMYpChgVA/binance%20putter.png"></a>
+
 ![cosm.png](https://files.steempeak.com/file/steempeak/donekim/HFDXBysA-cosm.png)
+
+
+
 
 - - -
 
