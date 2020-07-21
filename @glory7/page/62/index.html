@@ -234,6 +234,158 @@
     <div class="card">
     <!-- 
     <div class="card-image">
+        <a href="/@glory7/scot-sct-rewards-may-fluctuate-more-than-20-in-a-minute/" class="image is-7by1">
+            <img class="thumbnail" src="https://cdn.steemitimages.com/DQmNUYttPwL2nEhCGRXSxp3WnEt4W63d9jwYKXLHiPGinPM/image.png" alt="[SCOT] SCT rewards may fluctuate more than 20% in a minute">
+        </a>
+    </div>
+     -->
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-06-26T13:09:48.000Z">2019-06-26</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/@glory7/categories/sct/">sct</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    3 minutes read (About 376 words)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/@glory7/scot-sct-rewards-may-fluctuate-more-than-20-in-a-minute/">[SCOT] SCT rewards may fluctuate more than 20% in a minute</a>
+            
+        </h1>
+        <div class="content">
+            <p>Hello @holger80, I am delivering the message on behalf of steemcoinpan team, in particular from @kopasi.</p>
+<p>We found that SCOT(here, SCT) rewards for postings may fluctuate greatly, when the votes from major stakeholders (users who staked SCT a lot) come in during a short period of time. We would like to know whether there is a way to stabilize (or reduce volatility) of reward numbers.</p>
+<hr>
+<p>I have translated your article, <a href="https://steemit.com/steem-engine/@holger80/code-optimizations-for-scotbot" target="_blank" rel="noopener">https://steemit.com/steem-engine/@holger80/code-optimizations-for-scotbot</a>, and checked the formular with other korean community members.</p>
+<p>We have suspected that &#x201C;pending_rshares&#x201D; may increase vastly when promotion-encouraging IDs including kopasi, sct.adv, sct.min, and supporters (in total, they are about 30% of the total staked SCT) vote in a short period of time, and it would result in large fluctuation(especially decrease, as pending_rshares would go up a lot) of rewards for postings.</p>
+<p>In particular, if there are postings close to payout, the effect will be critical. </p>
+<hr>
+<p>So we did an experiment, and one user (@realmankwon) took a video of what happened during 5 minutes when these &#x201C;whale&#x201D; accounts voted several times. Please see: <a href="https://drive.google.com/file/d/11IOIrhuUsqZikCitWAEeriJf6frUESSD/view?usp=sharing" target="_blank" rel="noopener">https://drive.google.com/file/d/11IOIrhuUsqZikCitWAEeriJf6frUESSD/view?usp=sharing</a></p>
+<p>As you may see in this video, reward numbers exhibit very high volatility.</p>
+<hr>
+<p>Previously, when steem-engine had some update/bug fixes, we have seen a big drop(to 1/2 ~ 1/4) of rewards and some users have complained about it. We thought that it would be temporary issues that will not happen as SCOT improves. </p>
+<p>However, there were claims that rewards decreased right before the payout even without any updates, and that&#x2019;s why we examined this issue further. There are some users who worry about unstable payouts - you know, it sucks to see that your posting rewards go down a lot from what you&#x2019;ve expected a minute ago before the payout.</p>
+<p>We would love to hear from you about how to solve this issue.</p>
+<hr>
+<p>This page is synchronized from the post: <a href="https://steemit.com/@glory7/scot-sct-rewards-may-fluctuate-more-than-20-in-a-minute" target="_blank" rel="noopener">&#x2018;[SCOT] SCT rewards may fluctuate more than 20% in a minute&#x2019;</a></p>
+<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <div class="card">
+    <!-- 
+    <div class="card-image">
+        <a href="/@glory7/scotbot/" class="image is-7by1">
+            <img class="thumbnail" src="https://cdn.steemitimages.com/DQmVLEQz4R6TLspWojh1uHaiMhZ2w8125zWdBp1YeodBrzM/image.png" alt="[번역] Scotbot 코드 최적화">
+        </a>
+    </div>
+     -->
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-06-26T11:20:45.000Z">2019-06-26</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/@glory7/categories/sct/">sct</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    7 minutes read (About 1055 words)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/@glory7/scotbot/">[번역] Scotbot 코드 최적화</a>
+            
+        </h1>
+        <div class="content">
+            <ul>
+<li>&#xC774; &#xAE00;&#xC740; @kopasi &#xB2D8;&#xC758; &#xC694;&#xCCAD;&#xC73C;&#xB85C; @holger80&#xC758; <a href="https://steemit.com/steem-engine/@holger80/code-optimizations-for-scotbot" target="_blank" rel="noopener">Code optimizations for scotbot
+</a> &#xB97C; &#xBC88;&#xC5ED;&#xD558;&#xC600;&#xC2B5;&#xB2C8;&#xB2E4;.</li>
+</ul>
+<hr>
+<p><img src="https://cdn.steemitimages.com/DQmVLEQz4R6TLspWojh1uHaiMhZ2w8125zWdBp1YeodBrzM/image.png" alt=""></p>
+<p>As more and more posts were created that have at least one of the scot tags included, my previous scotbot implementation was not efficient anymore.</p>
+<p>Scot &#xD0DC;&#xADF8;&#xB97C; &#xD3EC;&#xD568;&#xD55C; &#xD3EC;&#xC2A4;&#xD305;&#xB4E4;&#xC758; &#xC22B;&#xC790;&#xAC00; &#xC99D;&#xAC00;&#xD558;&#xBA74;&#xC11C;, &#xAE30;&#xC874; scotbot &#xC2DC;&#xD589;&#xC740; &#xB354;&#xC774;&#xC0C1; &#xD6A8;&#xC728;&#xC801;&#xC774;&#xC9C0; &#xBABB;&#xD558;&#xAC8C; &#xB418;&#xC5C8;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<hr>
+<p>I rewrote the part that handles the all pending rshares and the token reward pool. In order to show the pending token rewards for one posts, I need to know the current reward pool size and the sum of all pending rshares of all posts.</p>
+<p>Pending rshares (&#xBBF8;&#xD655;&#xC815; rshares) &#xC640; Token reward pool(&#xB9AC;&#xC6CC;&#xB4DC; &#xD480;)  &#xAD00;&#xB828; &#xBD80;&#xBD84;&#xB4E4;&#xC744; &#xC0C8;&#xB85C; &#xC791;&#xC131;&#xD558;&#xC600;&#xC2B5;&#xB2C8;&#xB2E4;. &#xD55C; &#xD3EC;&#xC2A4;&#xD305;&#xC758; &#xC608;&#xC0C1; &#xBCF4;&#xC0C1;&#xC561;&#xC744; &#xBCF4;&#xC5EC;&#xC8FC;&#xAE30; &#xC704;&#xD574;&#xC11C;, &#xC800;&#xB294; &#xD604;&#xC7AC; &#xB9AC;&#xC6CC;&#xB4DC; &#xD480;&#xC758; &#xD06C;&#xAE30;&#xC640; &#xBAA8;&#xB4E0; &#xD3EC;&#xC2A4;&#xD305;&#xC758; &#xBBF8;&#xD655;&#xC815; rshares&#xB4E4;&#xC758; &#xD569;&#xC744; &#xC54C;&#xC544;&#xC57C; &#xD569;&#xB2C8;&#xB2E4;.</p>
+<hr>
+<p>As there are currently around 15000 pending posts/comments and 217000 votes on palnet, going everytime through all posts and votes is not very efficient. </p>
+<p>&#xD604;&#xC7AC; palnet&#xC5D0; &#xC57D; 15,000&#xAC1C;&#xC758; &#xBCF4;&#xC0C1; &#xC804; &#xD3EC;&#xC2A4;&#xD305;/&#xB313;&#xAE00;&#xB4E4;&#xACFC; 217,000&#xAC1C;&#xC758; vote&#xAC00; &#xC788;&#xB294;&#xB370;, &#xBAA8;&#xB4E0; &#xD3EC;&#xC2A4;&#xD305;&#xACFC; &#xBCF4;&#xD305;&#xC744; &#xB9E4;&#xBC88; &#xACC4;&#xC0B0;&#xD558;&#xB294; &#xAC83;&#xC740; &#xD6A8;&#xC728;&#xC801;&#xC774;&#xC9C0; &#xBABB;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<hr>
+<p>The first part of improving this is now completed. The pending token amount for a post is no longer stored directly in the database and calculated directly on request. With this change, it is no longer necessary to change all pending posts/comments objects in the database at every round.</p>
+<p>&#xCCAB; &#xAC1C;&#xC120;&#xC774; &#xC774;&#xB8E8;&#xC5B4;&#xC84C;&#xC2B5;&#xB2C8;&#xB2E4;. &#xD3EC;&#xC2A4;&#xD305;&#xC758; &#xBBF8;&#xD655;&#xC815; &#xBCF4;&#xC0C1;&#xC561;&#xC740; &#xC774;&#xC81C; &#xB354;&#xC774;&#xC0C1; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;&#xC5D0; &#xC9C1;&#xC811; &#xC800;&#xC7A5;&#xB418;&#xC9C0; &#xC54A;&#xC73C;&#xBA70;, &#xC694;&#xCCAD;&#xC5D0; &#xB530;&#xB77C; &#xACC4;&#xC0B0;&#xB429;&#xB2C8;&#xB2E4;. &#xC774; &#xAC1C;&#xC120;&#xC73C;&#xB85C; &#xC778;&#xD558;&#xC5EC;, &#xB9E4; &#xB77C;&#xC6B4;&#xB4DC;&#xB9C8;&#xB2E4; &#xB370;&#xC774;&#xD130;&#xBCA0;&#xC774;&#xC2A4;&#xC758; &#xBAA8;&#xB4E0; &#xBBF8;&#xD655;&#xC815; &#xD3EC;&#xC2A4;&#xD305;/&#xB313;&#xAE00;&#xB4E4;&#xC758; &#xBCF4;&#xC0C1;&#xC561;&#xC744; &#xBC14;&#xAFC0; &#xD544;&#xC694;&#xAC00; &#xC5C6;&#xC5B4;&#xC84C;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<hr>
+<p>The complete sum of all rshares and the current reward pool can be received from the API:<br><a href="https://scot-api.steem-engine.com/info?token=PAL" target="_blank" rel="noopener">https://scot-api.steem-engine.com/info?token=PAL</a><br>with the parameter <code>pending_rshares</code> and <code>reward_pool</code>. <code>pending_rshares</code> includes the author nonlinear curve.<br>The reward_pool is stored as integer, the token amount can be calculated by dividing it through <code>10**precision</code>.</p>
+<p>rshares &#xB4E4;&#xC758; &#xC804;&#xCCB4; &#xD569;&#xACFC; &#xD604;&#xC7AC; &#xB9AC;&#xC6CC;&#xB4DC; &#xD480;&#xC740; &#xB2E4;&#xC74C;&#xC758; API&#xC5D0;&#xC11C; &#xD655;&#xC778;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;: (&#xC5ED;&#xC790; &#xC8FC;: PAL &#xD1A0;&#xD070;&#xC774; &#xC544;&#xB2C8;&#xB77C; SCT &#xD1A0;&#xD070; &#xAD00;&#xB828; &#xC815;&#xBCF4;&#xB97C; &#xBCFC; &#xC218; &#xC788;&#xB294; &#xB9C1;&#xD06C;&#xB85C; &#xB300;&#xCCB4;&#xD568;)<br><a href="https://scot-api.steem-engine.com/info?token=SCT" target="_blank" rel="noopener">https://scot-api.steem-engine.com/info?token=SCT</a></p>
+<p><code>pending_rshares</code> &#xB294; &#xBE44;&#xC120;&#xD615; &#xC800;&#xC790; &#xBCF4;&#xC0C1; (&#xC8FC;: &#xC2A4;&#xCF54;&#xD310;&#xC740; 1.3&#xC2B9;&#xC785;&#xB2C8;&#xB2E4;) &#xB97C; &#xD3EC;&#xD568;&#xD569;&#xB2C8;&#xB2E4;.</p>
+<p>&#xB9AC;&#xC6CC;&#xB4DC; &#xD480;&#xC740; &#xC815;&#xC218;&#xB85C; &#xC800;&#xC7A5;&#xB418;&#xBA70;, &#xD1A0;&#xD070; &#xAC1C;&#xC218;&#xB294; &#xB9AC;&#xC6CC;&#xD504; &#xD480; (<code>reward_pool</code>)&#xC744; <code>10**precision</code> &#xC73C;&#xB85C; &#xB098;&#xB220;&#xC11C; &#xAD6C;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. (&#xC8FC;: &#xAC01; scot&#xB9C8;&#xB2E4; precision &#xC138;&#xD305;&#xAC12;&#xC774; &#xB2E4;&#xB985;&#xB2C8;&#xB2E4;. &#xC2A4;&#xCF54;&#xD310;&#xC740; 100&#xC778; &#xAC83;&#xC73C;&#xB85C; &#xCD94;&#xC815; - &#xB530;&#xB77C;&#xC11C; &#xB9AC;&#xC6CC;&#xB4DC; &#xD480;&#xC744; 1,000&#xC73C;&#xB85C; &#xB098;&#xB220;&#xC8FC;&#xBA74; &#xB429;&#xB2C8;&#xB2E4;) </p>
+<hr>
+<p>Every posts has now a <code>vote_rshares</code>parameter, which is the sum of all vote rshares. The nonlinear author curve exponent is also stored in every posts with the<code>author_curve_exponent</code> parameter. The <code>vote_rshares</code>parameter and the  global <code>pending_rshares</code> are updated whenever a new vote arrives.</p>
+<p>&#xBAA8;&#xB4E0; &#xD3EC;&#xC2A4;&#xD305;&#xC740; &#xC774;&#xC81C; <code>vote_rshares</code> &#xBCC0;&#xC218;&#xB97C; &#xAC00;&#xC9C0;&#xB294;&#xB370;, &#xC774;&#xAC83;&#xC740; &#xBAA8;&#xB4E0; &#xBCF4;&#xD305;&#xC758; rshares &#xB4E4;&#xC758; &#xD569;&#xC785;&#xB2C8;&#xB2E4;. &#xBE44;&#xC120;&#xD615; &#xC800;&#xC790; &#xBCF4;&#xC0C1; &#xC2B9;&#xC218;&#xB3C4; &#xBAA8;&#xB4E0; &#xD3EC;&#xC2A4;&#xD305;&#xC5D0; <code>author_curve_exponent</code> &#xB85C; &#xC800;&#xC7A5;&#xB429;&#xB2C8;&#xB2E4;. &#xC0C8; &#xBCF4;&#xD305;&#xC774; &#xC774;&#xB8E8;&#xC5B4;&#xC9C8; &#xB54C;&#xB9C8;&#xB2E4;, <code>vote_rshares</code> &#xC640; &#xAE00;&#xB85C;&#xBC8C; (&#xC8FC;: &#xD2B9;&#xC815; &#xD3EC;&#xC2A4;&#xD305;&#xC774; &#xC544;&#xB2CC; &#xC804;&#xCCB4; scot&#xC5D0; &#xC801;&#xC6A9;&#xB418;&#xB294;) <code>pending_rshares</code> &#xAC00; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xB429;&#xB2C8;&#xB2E4;. </p>
+<hr>
+<p>The pending token amount can then be calculated on request by:<br></p><figure class="highlight plain hljs"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pending_token = int_pow(vote_rshares, author_curve_exponent) / pending_rshares * reward_pool / 10**precision</span><br></pre></td></tr></tbody></table></figure><p></p>
+<p><br></p>
+<p>&#xBBF8;&#xD655;&#xC815; &#xD1A0;&#xD070; &#xAC1C;&#xC218;&#xB294; &#xC694;&#xCCAD;&#xC774; &#xC788;&#xC744; &#xB54C; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xACC4;&#xC0B0;&#xB429;&#xB2C8;&#xB2E4;:</p>
+<p>pending_token = int_pow(vote_rshares, author_curve_exponent) / pending_rshares <em> reward_pool / 10*</em>precision</p>
+<hr>
+<h2 id="Blacklisted-accounts"><a href="#Blacklisted-accounts" class="headerlink" title="Blacklisted accounts"></a>Blacklisted accounts</h2><p>Whenever the @steemsc accounts mutes an account, this account will be blacklisted from all SCOT instances. A blacklisted account can not vote and can only post once a day.</p>
+<p>Currently, only animalcontrol is muted by steemsc.</p>
+<h2 id="&#xBE14;&#xB799;&#xB9AC;&#xC2A4;&#xD2B8;-&#xACC4;&#xC815;&#xB4E4;"><a href="#&#xBE14;&#xB799;&#xB9AC;&#xC2A4;&#xD2B8;-&#xACC4;&#xC815;&#xB4E4;" class="headerlink" title="&#xBE14;&#xB799;&#xB9AC;&#xC2A4;&#xD2B8; &#xACC4;&#xC815;&#xB4E4;"></a>&#xBE14;&#xB799;&#xB9AC;&#xC2A4;&#xD2B8; &#xACC4;&#xC815;&#xB4E4;</h2><p>@steemsc &#xACC4;&#xC815;&#xC774; &#xD2B9;&#xC815; &#xACC4;&#xC815;&#xC744; mute(&#xCC28;&#xB2E8;) &#xD560;&#xB54C;&#xB9C8;&#xB2E4;, &#xBAA8;&#xB4E0; SCOT&#xC5D0;&#xC11C; &#xADF8; &#xACC4;&#xC815;&#xC740; &#xCC28;&#xB2E8;&#xB429;&#xB2C8;&#xB2E4;. &#xBE14;&#xB799;&#xB9AC;&#xC2A4;&#xD2B8;&#xB41C; &#xACC4;&#xC815;&#xC740; &#xBCF4;&#xD305;&#xC744; &#xD560; &#xC218; &#xC5C6;&#xC73C;&#xBA70; &#xD558;&#xB8E8;&#xC5D0; &#xD55C; &#xBC88;&#xB9CC; &#xD3EC;&#xC2A4;&#xD305;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<p>&#xD604;&#xC7AC;, animalcontrol&#xB9CC; steemsc&#xC5D0; &#xC758;&#xD574; &#xCC28;&#xB2E8;&#xB418;&#xC5B4; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<hr>
+<p>This page is synchronized from the post: <a href="https://steemit.com/@glory7/scotbot" target="_blank" rel="noopener">&#x2018;[&#xBC88;&#xC5ED;] Scotbot &#xCF54;&#xB4DC; &#xCD5C;&#xC801;&#xD654;&#x2019;</a></p>
+<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <div class="card">
+    <!-- 
+    <div class="card-image">
         <a href="/@glory7/uekut/" class="image is-7by1">
             <img class="thumbnail" src="https://cdn.steemitimages.com/DQmY9kXkxXV9uzKFjxTnqNvKsHvaFKUzw5DQApAdpv8q8gs/190625_shin%20lo%202.jpg" alt="(골드) 신로 한 장">
         </a>
@@ -535,154 +687,15 @@
 
 
 
-    <div class="card">
-    <!-- 
-    <div class="card-image">
-        <a href="/@glory7/sct-buy-high-sell-higher/" class="image is-7by1">
-            <img class="thumbnail" src="https://cdn.steemitimages.com/DQmZCzeeiYSwMZExht1HhkQCDpZZgiLiDbDBcdXCyfKWNhu/190622_sct%20list.jpg" alt="[SCT] Buy high, Sell higher">
-        </a>
-    </div>
-     -->
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-21T18:26:33.000Z">2019-06-21</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/@glory7/categories/sct/">sct</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    4 minutes read (About 607 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/@glory7/sct-buy-high-sell-higher/">[SCT] Buy high, Sell higher</a>
-            
-        </h1>
-        <div class="content">
-            <p>&#xD2B8;&#xB808;&#xC774;&#xB529;&#xC5D0;&#xC11C; &#xB3C8;&#xC744; &#xBC84;&#xB294; &#xBC29;&#xBC95;&#xC740; &#x201C;buy low, sell high&#x201D; - &#xC989; &#xC2F8;&#xAC8C; &#xC0AC;&#xC11C; &#xBE44;&#xC2F8;&#xAC8C; &#xD314;&#xBA74; &#xB41C;&#xB2E4;, &#xB77C;&#xACE0;&#xB4E4; &#xD569;&#xB2C8;&#xB2E4;. </p>
-<p>&#xADF8;&#xB7F0; &#xC758;&#xBBF8;&#xC5D0;&#xC11C; SCTM &#xCD9C;&#xC2DC; &#xC774;&#xD6C4; &#xC81C;&#xAC00; &#xD55C; &#xD589;&#xB3D9;&#xC740; &#xC815;&#xD655;&#xD788; &#xBC18;&#xB300;&#xB77C; &#xC5B4;&#xCA4C;&#xBA74; &#xBC14;&#xBCF4;&#xC9D3;&#xC77C;&#xC9C0;&#xB3C4; &#xBAA8;&#xB974;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;. &#xBA70;&#xCE60; &#xC804;&#xAE4C;&#xC9C0;&#xB9CC; &#xD574;&#xB3C4; &#xC800;&#xB294; EMFOUR, RORS, AIT &#xB4F1;&#xB4F1;&#xC758; &#xD1A0;&#xD070;&#xC744; &#xC0AC;&#xAE30; &#xC704;&#xD574;&#xC11C; SCT&#xB97C; &#xAF64; &#xD314;&#xC558;&#xC5C8;&#xB294;&#xB370; (&#xACC4;&#xC0B0;&#xC740; &#xC548;&#xD574;&#xBD24;&#xC9C0;&#xB9CC; 5&#xCC9C;&#xAC1C; &#xB118;&#xC744;&#xAC81;&#xB2C8;&#xB2E4;) &#xC5B4;&#xC81C; &#xC624;&#xB298; &#xC544;&#xB9C8; &#xADF8; &#xCD1D; &#xD310;&#xB9E4;&#xAE08;&#xC561;&#xBCF4;&#xB2E4; &#xB354; &#xC8FC;&#xACE0; SCT 2,3&#xCC9C;&#xAC1C; &#xC815;&#xB3C4;&#xB97C; &#xB9E4;&#xC785;&#xD588;&#xAC70;&#xB4E0;&#xC694;. </p>
-<p>&#xC54C;&#xAE30; &#xC27D;&#xAC8C; &#xC0DD;&#xAC01;&#xD558;&#xBA74; SCT 5&#xCC9C;&#xAC1C;&#xB97C; &#xD314;&#xACE0; &#xB098;&#xC911;&#xC5D0; &#xADF8; &#xB3C8;&#xC73C;&#xB85C; 2500&#xAC1C;&#xB97C; &#xB9E4;&#xC785;&#xD55C; &#xAF34;&#xC785;&#xB2C8;&#xB2E4;. &#xC2EC;&#xC9C0;&#xC5B4; &#xC608;&#xC804;&#xC5D0; &#xD314;&#xC558;&#xB358;&#xAC83;&#xC740; &#xC2A4;&#xD14C;&#xC774;&#xD0B9;&#xD588;&#xC73C;&#xBA74; 5&#xCC9C;&#xAC1C;&#xAC00; &#xC544;&#xB2C8;&#xB77C; &#xC9C0;&#xAE08;&#xCBE4;&#xC740; 6&#xCC9C;&#xAC1C;&#xB294; &#xB418;&#xC5B4;&#xC788;&#xC744;&#xB4EF;. </p>
-<hr>
-<p>&#xADF8;&#xB7EC;&#xBA74; &#xC65C; &#xC774;&#xB7F0; &#x201C;&#xBC14;&#xBCF4;&#xC9D3;&#x201D; &#xC744; &#xD588;&#xB290;&#xB0D0;&#x2026;</p>
-<p>SCT&#xC758; &#xAC00;&#xCE58;(&#xBBF8;&#xB798;?)&#xAC00; &#xADF8;&#xB54C;&#xBCF4;&#xB2E4; &#xB354; &#xC88B;&#xC544;&#xBCF4;&#xC600;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;. </p>
-<p>0.7 &#xC815;&#xB3C4;&#xC758; &#xAC00;&#xCE58;&#xAC00; &#xC788;&#xB2E4;&#xACE0; &#xC0DD;&#xAC01;&#xD588;&#xAE30;&#xC5D0; 0.7~1.5&#xC5D0; &#xADF8; &#xB2F9;&#xC2DC; &#xAE30;&#xC058;&#xAC8C; &#xD314;&#xC558;&#xC5C8;&#xACE0;</p>
-<p>1.5 &#xC774;&#xC0C1;&#xC758; &#xAC00;&#xCE58;&#xAC00; &#xC788;&#xB2E4;&#xACE0; &#xB2E4;&#xC2DC; &#xD310;&#xB2E8;&#xD588;&#xAE30;&#xC5D0; 1.4~1.5&#xC5D0; &#xC5B4;&#xC81C; &#xAE30;&#xC058;&#xAC8C; &#xB2E4;&#xC2DC; &#xC0C0;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p>&#xB2EC;&#xB9AC; &#xB9D0;&#xD574;, &#xBE44;&#xC2F8;&#xAC8C; &#xC0AC;&#xC11C; &#xB354; &#xBE44;&#xC2F8;&#xAC8C; &#xD314; &#xC218; &#xC788;&#xC744; &#xAC83;&#xC774;&#xB77C;&#xACE0; &#xD310;&#xB2E8;&#xD588;&#xC2B5;&#xB2C8;&#xB2E4;. Buy high, Sell higher. </p>
-<hr>
-<p>&#xC774;&#xBC88; SCTM &#xCD9C;&#xC2DC; &#xC804;&#xD6C4;&#xB85C; SCTM, SCT &#xB9E4;&#xC785;&#xC744; &#xACB0;&#xC815;&#xD558;&#xAC8C; &#xB41C; &#xACFC;&#xC815;&#xC740; &#xAC04;&#xB2E8;&#xD788; &#xC774;&#xB7F0; &#xD750;&#xB984;&#xC774;&#xC5C8;&#xC2B5;&#xB2C8;&#xB2E4;. SCTM &#xD310;&#xB9E4;&#xAC00;&#xACA9;&#xC740; &#xC6B4;&#xC601;&#xC9C4;&#xC5D0;&#xC11C; &#xC81C;&#xC2DC;&#xB41C; &#xAC83;&#xC774;&#xB2C8; &#xACE0;&#xC815;&#xAC12;&#xC774;&#xACE0;, </p>
-<ol>
-<li>SCTM &#xC608;&#xC0C1; &#xD310;&#xB9E4;&#xB7C9; &#xCD94;&#xC815;</li>
-<li>SCTM &#xD310;&#xB9E4;&#xB7C9;&#xC5D0; &#xAE30;&#xBC18;&#xD55C; SCTM &#xB9E4;&#xC785; &#xD6A8;&#xC728; &#xACC4;&#xC0B0;</li>
-<li>&#xBCF4;&#xC0C1;&#xBE44;&#xC728;&#xBCC0;&#xACBD;&#xC5D0; &#xB530;&#xB978; SCT &#xC2A4;&#xD14C;&#xC774;&#xD0B9; &#xD6A8;&#xC728; &#xACC4;&#xC0B0;</li>
-<li>&#xD604;&#xC7AC; &#xCD94;&#xC138; &#xC7AC;&#xD655;&#xC778; &#xBC0F; &#xC6D4;&#xB9D0; &#xC608;&#xC0C1; &#xC218;&#xC694; &#xC7AC;&#xCD94;&#xC815;</li>
-</ol>
-<hr>
-<p>&#xC624;&#xC804; 9&#xC2DC; &#xC2A4;&#xD14C;&#xC774;&#xD0B9; &#xC2DC;&#xC791; &#xC2DC;&#xC810;&#xC758; &#xD310;&#xB9E4;&#xB7C9;&#xC740; &#xC57D; 16&#xB9CC;&#xAC1C;. &#xC9C0;&#xAE08; &#xC2DC;&#xC810;&#xC740; &#xC57D; 17&#xB9CC;&#xAC1C;. </p>
-<p>&#xC81C; &#xC608;&#xC0C1;&#xCE58; &#xC0C1;&#xB2E8; &#xCABD;&#xC774;&#xC5C8;&#xC9C0;&#xB9CC;, &#xADF8;&#xB798;&#xB3C4; &#x201C;Buy&#x201D;  &#xBC94;&#xC704; &#xB0B4;&#xC600;&#xACE0;, &#xADF8;&#xB798;&#xC11C; &#xCD94;&#xAC00;&#xB85C; &#xB354; &#xC0C0;&#xC2B5;&#xB2C8;&#xB2E4;. </p>
-<p>&#xC774;&#xC81C; &#xC774; &#xC120;&#xD0DD;&#xC774; &#xC5B4;&#xB560;&#xC744;&#xC9C0;&#xB294;.. 7&#xC6D4; 1&#xC77C;&#xC774; &#xB418;&#xBA74; &#xC54C; &#xC218; &#xC788;&#xACA0;&#xC9C0;&#xC694;. &#xAE30;&#xB300;&#xB429;&#xB2C8;&#xB2E4;.</p>
-<ul>
-<li>&#xCD94;&#xAC00; &#xB9E4;&#xC785; &#xB4F1;&#xC73C;&#xB85C; &#xB4DC;&#xB514;&#xC5B4; 4&#xB9CC;&#xC744; &#xB3CC;&#xD30C;&#xD588;&#xC2B5;&#xB2C8;&#xB2E4;. &#xC2A4;&#xD14C;&#xC774;&#xD0B9;&#xC73C;&#xB85C; &#xC804;&#xCCB4; &#xC911; 3.85%&#xC778;&#xB370;&#x2026; &#xC774;&#xAC70; &#xBE44;&#xC728; &#xC720;&#xC9C0;&#xAC00; &#xC815;&#xB9D0; &#xD798;&#xB4DC;&#xB124;&#xC694;.</li>
-</ul>
-<p><img src="https://cdn.steemitimages.com/DQmZCzeeiYSwMZExht1HhkQCDpZZgiLiDbDBcdXCyfKWNhu/190622_sct%20list.jpg" alt="190622_sct list.jpg"></p>
-<hr>
-<p>This page is synchronized from the post: <a href="https://steemit.com/@glory7/sct-buy-high-sell-higher" target="_blank" rel="noopener">&#x2018;[SCT] Buy high, Sell higher&#x2019;</a></p>
-<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
-        </div>
-        
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-
-    <div class="card">
-    <!-- 
-    <div class="card-image">
-        <a href="/@glory7/sctm/" class="image is-7by1">
-            <img class="thumbnail" src="https://cdn.steemitimages.com/DQmWfYhPnui93mD9r66ph7FdCgDzPkPffkHXLgo5x3KvHc3/20190620_155329.jpg" alt="[SCTM] 선빵필승?">
-        </a>
-    </div>
-     -->
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-06-20T07:15:00.000Z">2019-06-20</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/@glory7/categories/sct/">sct</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    3 minutes read (About 480 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/@glory7/sctm/">[SCTM] 선빵필승?</a>
-            
-        </h1>
-        <div class="content">
-            <p>&#xD604;&#xC7AC;&#xAE4C;&#xC9C0; &#xC2A4;&#xD300;&#xC787; &#xCD5C;&#xACE0; &#xBA85;&#xC5B8;&#xC740; @lucky2&#xB2D8;&#xC758; &#x201C;&#xC120;&#xB3D9;&#xB2F9;&#xD558;&#xB824;&#xBA74; &#xBE68;&#xB9AC; &#xB2F9;&#xD574;&#xB77C;&#x201D; &#xB77C;&#xACE0; &#xC0DD;&#xAC01;&#xD569;&#xB2C8;&#xB2E4;. &#xC18D;&#xCE6D; &#xC120;&#xBE75;&#xD544;&#xC2B9;.</p>
-<p>&#xC2A4;&#xBAAC;, JJM, SCT &#xB4F1;&#xB4F1; &#xBCF4;&#xBA74;&#xC11C; &#xB9CE;&#xC774;&#xB4E4; &#xC120;&#xBE75;&#xD544;&#xC2B9;&#xC758; &#xC9C4;&#xB9AC;&#xB97C; &#xB290;&#xB07C;&#xC168;&#xC744; &#xAC81;&#xB2C8;&#xB2E4;.</p>
-<p>&#xAC8C;&#xC784;&#xC774;&#xB860;&#xC5D0;&#xC11C;&#xB294; &#xC0C1;&#xB2F9;&#xC218;&#xC758; &#xACBD;&#xC6B0; &#xBA3C;&#xC800; &#xD589;&#xB3D9;&#xD558;&#xB294; &#xC0AC;&#xB78C;&#xC774; &#xC720;&#xB9AC;&#xD55C;&#xB370;&#xC694;, &#xADF8;&#xAC83;&#xC740; &#xB0B4; &#xD589;&#xB3D9;&#xC73C;&#xB85C; &#xC0C1;&#xB300;&#xBC29;&#xC758; &#xD589;&#xB3D9;&#xC5D0; &#xC81C;&#xC57D;&#xC744; &#xAC78; &#xC218; &#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC774;&#xBC88; SCTM&#xC740; &#xC2A4;&#xD14C;&#xC774;&#xD0B9; &#xC2DC;&#xC791; &#xC804;&#xAE4C;&#xC9C0; &#xB208;&#xCE58;&#xC2F8;&#xC6C0;&#xC774; &#xC608;&#xC0C1;&#xB418;&#xC5B4; &#xC654;&#xC2B5;&#xB2C8;&#xB2E4; - &#xC2A4;&#xD14C;&#xC774;&#xD0B9; &#xD558;&#xB294; &#xC720;&#xC800;&#xB4E4;&#xC774; &#xB298;&#xC5B4;&#xB0A0;&#xC218;&#xB85D; &#xAE30;&#xC874; &#xC2A4;&#xD14C;&#xC774;&#xD0B9; &#xD558;&#xB294; &#xC0AC;&#xB78C;&#xB4E4;&#xC758; &#xBAAB;&#xC740; &#xC904;&#xC5B4;&#xB4DC;&#xB294; &#xAD6C;&#xC870;&#xC774;&#xB2C8;&#xAE4C;&#xC694; (&#xB3D9;&#xC77C;&#xD55C; &#xC218;&#xB7C9;&#xC744; &#xB354; &#xB9CE;&#xC740; &#xC0AC;&#xB78C;&#xACFC; &#xB098;&#xB214;).</p>
-<hr>
-<p>&#xD558;&#xC9C0;&#xB9CC; @kcc&#xB2D8;&#xC774; 12&#xB9CC; &#xC2A4;&#xD300;&#xC774; &#xB118;&#xB294; &#xAE08;&#xC561;(4&#xB9CC; SCTM)&#xC744; &#xD55C;&#xBC88;&#xC5D0; &#xB54C;&#xB9AC;&#xBA74;&#xC11C; &#xBD84;&#xC704;&#xAE30;&#xB294; &#xD655; &#xBC14;&#xB00C;&#xC5C8;&#xC2B5;&#xB2C8;&#xB2E4;. &#xC801;&#xC5B4;&#xB3C4; &#xC81C;&#xAC8C;&#xB294;.</p>
-<p>&#xC81C;&#xAC00; &#xB098;&#xB984;&#xB300;&#xB85C; &#xC0DD;&#xAC01;&#xD574;&#xBCF8; &#x201C;&#xC801;&#xC815;&#x201D; &#xC9C4;&#xC785; &#xC218;&#xB7C9;&#xC774; &#xC788;&#xACE0;, &#xADF8; &#xC774;&#xD6C4;&#xC5D0;&#xB294; &#xB4E4;&#xC5B4;&#xAC00;&#xC9C0; &#xC54A;&#xC744; &#xC0DD;&#xAC01;&#xC774;&#xC5C8;&#xC2B5;&#xB2C8;&#xB2E4;. &#xADF8;&#xB7F0;&#xB370; &#xC0DD;&#xAC01;&#xD574;&#xBCF4;&#xB2C8; &#xB9CC;&#xC57D; &#xB2E4;&#xB4E4; &#xBE44;&#xC2B7;&#xD558;&#xAC8C; &#xC0DD;&#xAC01;&#xD55C;&#xB2E4;&#xBA74;, &#xB0B4;&#xAC00; &#xBA3C;&#xC800; &#x201C;&#xC801;&#xC815;&#x201D; &#xC9C4;&#xC785; &#xC218;&#xB7C9; &#xC804;&#xC5D0; &#xB4E4;&#xC5B4;&#xAC00;&#xBA74; &#xB2E4;&#xB978; &#xC7A0;&#xC7AC;&#xC801; &#xAD6C;&#xB9E4;&#xC790;&#xB4E4;&#xC774; &#xD3EC;&#xAE30;&#xD558;&#xAC8C; &#xB418;&#xC9C0; &#xC54A;&#xC744;&#xAE4C;?</p>
-<p>&#xC774;&#xB7F0; &#xC0DD;&#xAC01;&#xC744; &#xD558;&#xB294; &#xB3C4;&#xC911;, 2&#xB9CC; &#xC2A4;&#xD300; &#xB118;&#xB294; &#xAC70;&#xB798;&#xAC00; &#xB610; &#xD130;&#xC84C;&#xACE0;, &#xC2A4;&#xD300;p &#xD658;&#xC804;&#xC774; &#xB418;&#xC790;&#xB9C8;&#xC790; &#xC800;&#xB3C4; &#xC77C;&#xB2E8; &#xC9C8;&#xB800;&#xC2B5;&#xB2C8;&#xB2E4;. &#xCD94;&#xD6C4;&#xC5D0; &#xC880;&#xB354; &#xCD94;&#xAC00;&#xD560; &#xC218;&#xB3C4; &#xC788;&#xACA0;&#xC73C;&#xB098;&#x2026; </p>
-<p>&#xC800;&#xB3C4; &#xACB0;&#xCF54; &#xBE68;&#xB9AC; &#xB4E4;&#xC5B4;&#xAC04; &#xD3B8;&#xC740; &#xC544;&#xB2C8;&#xAD70;&#xC694; - &#xC774;&#xBBF8; 9&#xB9CC;&#xAC1C;&#xAC00; &#xB118;&#xAC8C; &#xD314;&#xB9B0; &#xAC83;&#xC73C;&#xB85C; &#xBCF4;&#xC785;&#xB2C8;&#xB2E4;. &#xC774; &#xCD94;&#xC138;&#xBA74; &#xB0B4;&#xC77C; &#xC544;&#xCE68; 9&#xC2DC; &#xC804;&#xC5D0; &#xC81C;&#xAC00; &#xC0DD;&#xAC01;&#xD55C; &#x201C;&#xC801;&#xC815;&#x201D; &#xC218;&#xC900;&#xC744; &#xB118;&#xC5B4;&#xAC08;&#xC9C0;&#xB3C4; &#xBAA8;&#xB974;&#xACA0;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p><img src="https://cdn.steemitimages.com/DQmWfYhPnui93mD9r66ph7FdCgDzPkPffkHXLgo5x3KvHc3/20190620_155329.jpg" alt="20190620_155329.jpg"></p>
-<hr>
-<p>This page is synchronized from the post: <a href="https://steemit.com/@glory7/sctm" target="_blank" rel="noopener">&#x2018;[SCTM] &#xC120;&#xBE75;&#xD544;&#xC2B9;?&#x2019;</a></p>
-<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
-        </div>
-        
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-
 
     
 <div class="card card-transparent">
     <nav class="pagination is-centered" role="navigation" aria-label="pagination">
         <div class="pagination-previous">
-            <a class="is-flex-grow has-text-black-ter" href="/@glory7/page/61/">Anterior</a>
+            <a class="is-flex-grow has-text-black-ter" href="/@glory7/page/61/">Previous</a>
         </div>
         <div class="pagination-next">
-            <a class="is-flex-grow has-text-black-ter" href="/@glory7/page/63/">Siguiente</a>
+            <a class="is-flex-grow has-text-black-ter" href="/@glory7/page/63/">Next</a>
         </div>
         <ul class="pagination-list is-hidden-mobile">
             
@@ -841,7 +854,7 @@
         </div>
     </div>
 </div>
-<script>window.INSIGHT_CONFIG={TRANSLATION:{POSTS:"Entradas",PAGES:"Pages",CATEGORIES:"Categorias",TAGS:"Etiquetas",UNTITLED:"(Untitled)"},CONTENT_URL:"/@glory7/content.json"};</script>
+<script>window.INSIGHT_CONFIG={TRANSLATION:{POSTS:"Posts",PAGES:"Pages",CATEGORIES:"Categories",TAGS:"Tags",UNTITLED:"(Untitled)"},CONTENT_URL:"/@glory7/content.json"};</script>
 
 
 
