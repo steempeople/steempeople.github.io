@@ -59,6 +59,10 @@ BSN은 2020년 9월에 Fabric Dapp, FISCO BCOS DApp, EOS Dapp 등이 인터체�
 
 참고적으로 BSN은 **어떤 블록체인을 기반으로 하는지에 관계없이 상호운용성을 가진 디앱 개발 및 배포를 저렴하게 하는 것을 목표**로 하고 있기 때문에 매달마다 3~5개의 퍼블릭체인들이 BSN 인터내셔널 생태계에 추가가 됩니다. 그래서 개인적으로는 BSN에 퍼블릭체인들이 통합되는 이벤트가 ETH, EOS, NEO 등 퍼블릭 체인의 네이티브 토큰 가격을 끌어올리는 재료로 활용되는 것은 그야말로 "트레이딩 재료"로 사용되는 것일 뿐이니 참고하실 필요가 있을 것 같습니다.
 
+
+<center><sub><바이낸스에서 거래수수료 20%를 할인받을 수 있는 VIP전용 가입링크(배너클릭!)></sub></center>
+<a href="http://www.binance.com/en/register?ref=MFIX59H5"><img src="https://cdn.steemitimages.com/DQmUaHkWCryBU1sXt9fmERzVbLPLEFTCbF7E3UeMYpChgVA/binance%20putter.png"></a>
+
 - - -
 
 This page is synchronized from the post: ['[dCRYPTO] 중국 국가주도 블록체인 네트워크 BSN, 6개 퍼블릭체인 통합 계획 공개'](https://steemit.com/@donekim/dcrypto-bsn-6)
